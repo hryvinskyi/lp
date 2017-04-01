@@ -110,6 +110,12 @@
 
         /* END:CORE HANDLERS */
 
+        var switchLanguage = function() {
+            var $select = $("#select-language");
+
+            $select.select2({minimumResultsForSearch: -1});
+        };
+
         return {
 
             /**
@@ -120,6 +126,8 @@
                 // Core handlers
                 handleInit(); // initialize core variables
                 handleOnResize(); // set and handle responsive
+
+                switchLanguage();
 
                 // Hacks
                 handleFixInputPlaceholderForIE(); //IE8 & IE9 input placeholder issue fix
@@ -238,5 +246,7 @@
         };
     }();
 
-    Site.init();
+    $(document).ready(function () {
+        Site.init();
+    });
 })(jQuery);

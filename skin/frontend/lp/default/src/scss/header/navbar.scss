@@ -1,0 +1,35 @@
+.nav-bar {
+
+  .welcome-msg {
+    padding: 0;
+    margin: 0;
+    color: #edf1f2;
+  }
+
+  &__wrap {
+    background-color: #535355;
+    padding: 15px 25px;
+    @include clearfix;
+
+    .nav-bar-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+
+        + li {
+          margin-left: 10px;
+        }
+
+        a {
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #edf1f2;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,11 @@
+html {
+  font-size: 10px;
+}
+
 body {
-  background: url("#{$image-path}/core/body_bg.jpg") repeat center;
+  background: url("#{$images-path}/core/body_bg.jpg") repeat center;
+}
+
+.select2-dropdown {
+  min-width: 170px;
 }

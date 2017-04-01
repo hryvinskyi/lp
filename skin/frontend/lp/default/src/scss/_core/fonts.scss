@@ -1,0 +1,13 @@
+/*!
+ * Copyright (c) 2017. Volodumur Hryvinskyi
+ * @author   Volodumur Hryvinskyi <script@email.ua>
+ * @package  scriptua\lp
+ */
+
+@font-face {
+  font-family: 'Bauhaus 93';
+  src: url('#{$fonts-path}/BAUHS93.eot');
+  src: local('Bauhaus 93'),
+  url('#{$fonts-path}/BAUHS93.woff') format('woff'),
+  url('#{$fonts-path}/BAUHS93.ttf') format('truetype');
+}

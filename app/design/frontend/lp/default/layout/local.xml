@@ -16,7 +16,7 @@
                 <action method="setText">
                     <text>
                         <![CDATA[
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
                         ]]>
                     </text>
                 </action>
@@ -40,13 +40,81 @@
             </action>
             <action method="addItem">
                 <type>skin_css</type>
+                <name>css/bootstrap.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
                 <name>css/style.css</name>
             </action>
-
             <action method="addItem">
                 <type>skin_js</type>
-                <name>javascripts/bootstrap.min.js</name>
+                <name>js/script.js</name>
             </action>
+        </reference>
+
+        <reference name="top.links">
+            <remove name="checkout_cart_link"/>
+            <block type="checkout/links" name="checkout_cart_link_custom">
+                <action method="addCartLink"></action>
+                <!--<action method="addCheckoutLink"></action>-->
+            </block>
+        </reference>
+
+        <reference name="header">
+            <block type="page/template_links" name="navbar.links" as="navbarLinks" template="page/template/navbar-links.phtml">
+                <action method="addLink" translate="label title">
+                    <label>Home</label>
+                    <url></url>
+                    <title>Home</title>
+                    <prepare>true</prepare>
+                    <urlParams helper="core/url/getHomeUrl"/>
+                    <position>1</position>
+                    <liParams/>
+                    <aParams/>
+                    <beforeText/>
+                    <afterText/>
+                </action>
+                <action method="addLink" translate="label title">
+                    <label>About Us</label>
+                    <url>about-magento-demo-store</url>
+                    <urlParams helper="core/url/getHomeUrl"/>
+                    <title>About Us</title>
+                    <prepare/>
+                    <position>2</position>
+                </action>
+                <action method="addLink" translate="label title">
+                    <label>Customer Service</label>
+                    <url>customer-service</url>
+                    <urlParams helper="core/url/getHomeUrl"/>
+                    <title>Customer Service</title>
+                    <prepare/>
+                    <position>3</position>
+                </action>
+                <action method="addLink" translate="label title">
+                    <label>Site Map</label>
+                    <url>catalog/seo_sitemap/category</url>
+                    <urlParams helper="core/url/getHomeUrl"/>
+                    <title>Site Map</title>
+                    <prepare/>
+                    <position>4</position>
+                </action>
+                <action method="addLink" translate="label title">
+                    <label>Search Terms</label>
+                    <url>catalogsearch/term/popular</url>
+                    <urlParams helper="core/url/getHomeUrl"/>
+                    <title>Search Terms</title>
+                    <prepare/>
+                    <position>5</position>
+                </action>
+                <action method="addLink" translate="label title" module="customer">
+                    <label>Contacts</label>
+                    <url>contacts</url>
+                    <urlParams helper="core/url/getHomeUrl"/>
+                    <title>Contacts</title>
+                    <prepare/>
+                    <position>6</position>
+                </action>
+            </block>
         </reference>
     </default>
 </layout>

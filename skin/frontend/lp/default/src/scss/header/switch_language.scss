@@ -1,0 +1,39 @@
+.form-language {
+  position: relative;
+
+  &__text {
+    color: #535355;
+  }
+
+  &__language {
+    cursor: pointer;
+  }
+
+  #select-language {
+
+  }
+
+
+  .select2 {
+
+    .selection {
+
+      .select2-selection--single {
+        background: transparent;
+        border: none;
+        outline: none;
+        height: auto;
+
+        .select2-selection__arrow {
+          height: 14px;
+        }
+
+        .select2-selection__rendered {
+          color: #1ebd9d;
+          font-weight: 600;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}

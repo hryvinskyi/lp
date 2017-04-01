@@ -1,0 +1,22 @@
+.logo {
+  background: #6fcfbc;
+  @include square(142px);
+  position: absolute;
+
+  &__text {
+    font-size: 127px;
+    font-family: "Bauhaus 93", sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 142px;
+    display: block;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+    }
+  }
+}
