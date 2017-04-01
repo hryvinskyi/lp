@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * LP
+ *
+ * @description  Test task
+ * @author       Volodumur Hrivinskyi
+ * @package      scriptua/lp
+ *
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <block type="core/text" name="google.jquery">
+                <action method="setText">
+                    <text>
+                        <![CDATA[
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+                        ]]>
+                    </text>
+                </action>
+            </block>
+            <block type="core/text" name="ie9.support">
+                <action method="setText">
+                    <text><![CDATA[
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->]]>
+                    </text>
+                    <params/>
+                    <if>lt IE 9</if>
+                </action>
+            </block>
+
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/bootstrap.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/style.css</name>
+            </action>
+
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>javascripts/bootstrap.min.js</name>
+            </action>
+        </reference>
+    </default>
+</layout>

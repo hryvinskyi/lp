@@ -1,0 +1,14 @@
+/*!
+ * Copyright (c) 2017. Volodumur Hryvinskyi
+ * @author   Volodumur Hryvinskyi <script@email.ua>
+ * @package  scriptua\lp
+ */
+
+@import "bootstrap/bootstrap/variables";
+@import "bootstrap/bootstrap/mixins";
+@import "variables";
+@import "mixins";
+
+@import "_core/core";
+@import "header/header";
+@import "footer/footer";
