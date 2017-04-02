@@ -52,11 +52,13 @@
                     <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo__text">LP</a>
                 <?php endif ?>
             </div>
-            <div class="quick-access">
+            <div class="search">
                 <?php echo $this->getChildHtml('topSearch') ?>
+            </div>
+            <div class="mega-menu">
+                <?php echo $this->getChildHtml('megaMenu') ?>
             </div>
             <?php echo $this->getChildHtml('topContainer'); ?>
         </div>
     </div>
 </header>
-<?php echo $this->getChildHtml('topMenu') ?>

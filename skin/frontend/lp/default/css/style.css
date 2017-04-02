@@ -497,6 +497,15 @@ body {
 .select2-dropdown {
   min-width: 170px; }
 
+.main-container {
+  background-color: #ffffff;
+  padding: 0 15px; }
+  .main-container:before, .main-container:after {
+    content: " ";
+    display: table; }
+  .main-container:after {
+    clear: both; }
+
 header {
   position: relative; }
   header .top-block {
@@ -557,7 +566,8 @@ header {
     background: #6fcfbc;
     width: 142px;
     height: 142px;
-    position: absolute; }
+    position: absolute;
+    z-index: 99; }
     header .logo__text {
       font-size: 127px;
       font-family: "Bauhaus 93", sans-serif;
@@ -569,3 +579,26 @@ header {
       display: block; }
       header .logo__text:hover, header .logo__text:focus, header .logo__text:active {
         text-decoration: none; }
+  header .search {
+    background-color: #f2f2f2;
+    padding: 11px 92px 11px 155px;
+    position: relative; }
+    header .search input.form-control {
+      width: 100%;
+      border: 1px solid #dcdbdb;
+      background-color: #ffffff;
+      box-shadow: none; }
+    header .search button {
+      width: 80px;
+      height: 32px;
+      position: absolute;
+      right: 13px;
+      top: 11px;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      background-color: #535355;
+      border: none;
+      color: #edf1f2; }
+  header .mega-menu {
+    background-color: #fff;
+    padding: 11px 12px 11px 155px; }

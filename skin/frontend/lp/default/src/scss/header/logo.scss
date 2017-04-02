@@ -2,6 +2,7 @@
   background: #6fcfbc;
   @include square(142px);
   position: absolute;
+  z-index: 99;
 
   &__text {
     font-size: 127px;

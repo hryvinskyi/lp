@@ -1,0 +1,25 @@
+.search {
+  background-color: #f2f2f2;
+  padding: 11px 92px 11px 155px;
+  position: relative;
+
+  input.form-control {
+    width: 100%;
+    border: 1px solid #dcdbdb;
+    background-color: #ffffff;
+    box-shadow: none;
+  }
+
+  button {
+    width: 80px;
+    height: 32px;
+    position: absolute;
+    right: 13px;
+    top: 11px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    background-color: #535355;
+    border: none;
+    color: #edf1f2;
+  }
+}

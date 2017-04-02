@@ -39,3 +39,6 @@
 /index.php.sample
 /cron.php
 /.htaccess.sample
+!/app/code/
+/app/code/community/
+/app/code/core/

@@ -9,3 +9,9 @@ body {
 .select2-dropdown {
   min-width: 170px;
 }
+
+.main-container {
+  background-color: #ffffff;
+  @include clearfix;
+  padding: 0 15px;
+}

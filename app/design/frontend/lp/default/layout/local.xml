@@ -46,6 +46,7 @@
                 <type>skin_css</type>
                 <name>css/style.css</name>
             </action>
+
             <action method="addItem">
                 <type>skin_js</type>
                 <name>js/script.js</name>

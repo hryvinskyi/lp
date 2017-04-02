@@ -4,6 +4,8 @@
  * @package  scriptua\lp
  */
 
+jQuery.noConflict();
+
 (function ($) {
     'use strict';
 
