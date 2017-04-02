@@ -15,7 +15,10 @@
                             <label>Show Dropdown Links</label>
                             <frontend_type>select</frontend_type>
                             <source_model>bootstrapnavigation/system_config_source_maxdepth</source_model>
-                            <comment>If no, only top level links will be displayed. Twitter Bootstrap only supports one level of dropdown display.</comment>
+                            <comment>
+                                If no, only top level links will be displayed.
+                                Twitter Bootstrap only supports one level of dropdown display.
+                            </comment>
                         </max_depth>
                         <top_in_dropdown>
                             <label>Show Top Level Links in Dropdown</label>

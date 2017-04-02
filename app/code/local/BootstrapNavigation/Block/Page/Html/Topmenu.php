@@ -39,7 +39,7 @@ class BootstrapNavigation_Block_Page_Html_Topmenu extends Mage_Page_Block_Html_T
                 $child->setClass($outermostClass);
             }
             if ($child->hasChildren()) {
-                $outermostClassCode .= ' data-toggle="dropdown" ';
+                $outermostClassCode .= '  ';
             }
 
             $html .= '<li ' . $this->_getRenderedMenuItemAttributes($child) . '>';
@@ -90,7 +90,7 @@ class BootstrapNavigation_Block_Page_Html_Topmenu extends Mage_Page_Block_Html_T
     {
         $classes = parent::_getMenuItemClasses($item);
 
-        if ($item->hasChildren() && $item->getLevel() == 0) {
+        if ($item->hasChildren()) {
             $classes[] = 'dropdown';
         }
 

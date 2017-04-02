@@ -5,10 +5,17 @@
  * @package  scriptua\lp
  */
 ?>
-<div class="footer-container">
-    <div class="footer">
-        <?php echo $this->getChildHtml() ?>
-        <p class="bugs"><?php echo $this->__('Help Us to Keep Magento Healthy') ?> - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong><?php echo $this->__('Report All Bugs') ?></strong></a> <?php echo $this->__('(ver. %s)', Mage::getVersion()) ?></p>
-        <address><?php echo $this->getCopyright() ?></address>
+<div class="container">
+    <div class="row">
+        <div class="footer">
+            <div class="menus">
+                <div class="container-fluid">
+                    <div class="row">
+                        <?php echo $this->getChildHtml() ?>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright"><?php echo $this->getCopyright() ?></div>
+        </div>
     </div>
 </div>

@@ -16,6 +16,7 @@ jQuery.noConflict();
         var isIE8 = false;
         var isIE9 = false;
         var isIE10 = false;
+        var dropDownHover = true;
 
         var resizeHandlers = [];
 
@@ -38,6 +39,14 @@ jQuery.noConflict();
 
             if (isIE10 || isIE9 || isIE8) {
                 $('html').addClass('ie');
+            }
+
+            if(dropDownHover) {
+                $('ul.nav li.dropdown').hover(function() {
+                    $(this).find('> .dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+                }, function() {
+                    $(this).find('> .dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+                });
             }
         };
 

@@ -2,285 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2129b6b-70b0-41d1-9f70-995e2424e3ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/404_callout1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/404_callout2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/about_us_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/best_selling_img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/best_selling_img02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/best_selling_img03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/best_selling_img04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/best_selling_img05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/best_selling_img06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/cell_phone_landing_banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/col_left_callout.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/col_right_callout.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/electronics_cellphones.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/electronics_digitalcameras.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/electronics_laptops.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/furniture_callout_spot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/furnitures_bed_room.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/furnitures_living_room.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/head_electronics_cellphones.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/head_electronics_digicamera.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/head_electronics_laptops.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/laptop_callout_mid1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/laptop_callout_mid2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/laptop_callout_mid3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/laptop_callout_spot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/shirts_landing_banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Helper/Data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Model/System/Config/Source/Maxdepth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/system.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/etc/widget.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/bundle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalog_msrp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalogsearch.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/checkout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/configurableswatches.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/contacts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/directory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/downloadable.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/newsletter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/oauth.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/paypal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/persistent.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/review.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/rss.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/sales.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/wishlist.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/authorizenet/directpost/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/catalog/product/view/type/bundle.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/catalog/product/view/type/bundle/availability.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/catalog/product/view/type/bundle/option/select.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/email/order/items/creditmemo/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/email/order/items/invoice/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/email/order/items/order/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/email/order/items/shipment/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/bundle/sales/order/items/renderer.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/captcha/zend.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/category/page.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/category/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/category/widget/link/link_block.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/category/widget/link/link_inline.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/layer/filter.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/layer/state.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/layer/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/msrp/popup.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/navigation/left.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/navigation/top.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/compare/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/compare/sidebar.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/gallery.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/list/related.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/list/toolbar.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/list/upsell.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/new.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/price_msrp.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/price_msrp_item.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/price_msrp_noform.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/price_msrp_rss.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/additional.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/addto.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/addtocart.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/attributes.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/description.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/media.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/js.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/type/date.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/type/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/type/file.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/type/select.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/type/text.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/wrapper.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/options/wrapper/bottom.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/price_clone.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/sharing.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/tierprices.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/availability/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/availability/grouped.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/configurable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/grouped.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/options/configurable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/simple.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/view/type/virtual.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/widget/link/link_block.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/widget/link/link_inline.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/widget/new/column/new_default_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/widget/new/column/new_images_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/widget/new/column/new_names_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/widget/new/content/new_grid.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/product/widget/new/content/new_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/rss/product/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/seo/sitemap.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/seo/sitemap/container.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/seo/tree.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/cataloginventory/qtyincrements.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/cataloginventory/stockqty/composite.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/cataloginventory/stockqty/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/advanced/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/advanced/result.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/result.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/term.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/centinel/authentication/start.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/coupon.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/crosssell.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/item/configure/updatecart.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/item/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/minicart.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/minicart/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/minicart/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/render/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/render/simple.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/shipping.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/sidebar.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/cart/sidebar/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/multishipping/addresses.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/multishipping/billing.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/multishipping/item/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/multishipping/overview.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/multishipping/overview/item.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/onepage.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/onepage/payment.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/onepage/progress.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/onepage/review/info.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/onepage/review/item.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/checkout/onepage/shipping.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/configurableswatches/catalog/layer/filter/swatches.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/configurableswatches/catalog/layer/state/swatch.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/configurableswatches/catalog/media/js.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/configurableswatches/catalog/product/list/price/js.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/configurableswatches/catalog/product/list/swatches.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/configurableswatches/catalog/product/view/type/configurable/swatch-js.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/configurableswatches/catalog/product/view/type/options/configurable/swatches.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/contacts/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/account/dashboard.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/account/dashboard/address.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/account/navigation.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/address/edit.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/form/address.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/form/changepassword.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/form/confirmation.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/form/edit.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/form/forgotpassword.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/form/mini.login.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/customer/form/resetforgottenpassword.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/directory/currency.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/catalog/product/type.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/checkout/cart/item/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/checkout/onepage/review/item.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/customer/products/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/email/order/items/creditmemo/downloadable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/email/order/items/invoice/downloadable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/email/order/items/order/downloadable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/downloadable/sales/order/items/renderer/downloadable.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/catalog/product/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/catalog/product/new.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/creditmemo/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/invoice/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/items/creditmemo/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/items/invoice/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/items/order/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/items/shipment/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/shipment/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/shipment/track.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/order/totals/wrapper.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/productalert/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/email/productalert/stock.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/newsletter/subscribe.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/oauth/authorize/form/login-simple.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/megamenu.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/payment/form/cc.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/payment/form/ccsave.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/payment/info/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/bml.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/express/minicart/shortcut.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/express/product/shortcut.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/express/review.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/express/review/address.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/express/review/details.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/express/review/shipping/method.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/partner/us_logo.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/persistent/checkout/onepage/billing.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/persistent/checkout/onepage/login.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/persistent/customer/form/login.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/persistent/customer/form/register.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/persistent/header/links.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/persistent/remember_me.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/persistent/remember_me_tooltip.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/rating/detailed.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/product_viewed.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/compared/column/compared_default_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/compared/column/compared_images_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/compared/column/compared_names_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/compared/content/compared_grid.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/compared/content/compared_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/viewed/column/viewed_default_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/viewed/column/viewed_images_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/viewed/column/viewed_names_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/viewed/content/viewed_grid.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/reports/widget/viewed/content/viewed_list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/review/customer/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/review/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/review/product/view/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/review/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/billing/agreement/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/billing/agreements.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/creditmemo/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/creditmemo/items/renderer/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/history.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/invoice/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/invoice/items/renderer/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/items/renderer/default.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/recent.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/order/shipment/items.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/recurring/grid.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/recurring/profile/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sales/widget/guest/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/sendfriend/send.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/button/update.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/item/column/cart.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/item/column/info.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/item/column/price.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/item/column/quantity.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/item/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/shared.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/sidebar.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/view.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/customer.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/customer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Model/System/Config/Source/Maxdepth.php" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Model/System/Config/Source/Maxdepth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/system.xml" afterPath="$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/system.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/newsletter.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/newsletter.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/1column.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/1column.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-left.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-left.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-right.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-right.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/3columns.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/3columns.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/topmenu.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/topmenu.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/newsletter/subscribe.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/newsletter/subscribe.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/breadcrumbs.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/breadcrumbs.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/footer.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/footer.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/css/bootstrap.css" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/css/style.css" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/js/script.js" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/js/script.js" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/header.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -295,85 +35,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/category/page.phtml">
+      <file leaf-file-name="footer.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/footer.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/catalog/category/view.phtml">
+      <file leaf-file-name="header.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-547">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <element signature="e#978#1055#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.mini.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <element signature="e#6#134#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
+            <state relative-caret-position="472">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1column.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/1column.phtml">
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="15">
+              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/style.scss">
+      <file leaf-file-name="cms.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3columns.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/3columns.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -390,14 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contai</find>
-      <find>grid</find>
-      <find>remove</find>
-      <find>store_language</find>
-      <find>checkout</find>
-      <find>addLink</find>
-      <find>?Checkout&lt;</find>
-      <find>&gt;Checkout&lt;</find>
       <find>Checkout&lt;</find>
       <find>add</find>
       <find>chec</find>
@@ -419,7 +107,15 @@
       <find>input-h</find>
       <find>topSearch</find>
       <find>col2-right-layout</find>
+      <find>dropdown</find>
       <find>Webcomm_</find>
+      <find>breadcrumb</find>
+      <find>footer_links_company</find>
+      <find>Translator</find>
+      <find>searchForm = new Varien</find>
+      <find>newsletterSubscriberFormDetail</find>
+      <find>subscribe</find>
+      <find>subs</find>
     </findStrings>
     <replaceStrings>
       <replace>BackendController</replace>
@@ -427,7 +123,6 @@
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\lp\default</dir>
-      <dir>C:\xampp\htdocs\magento\app\design\frontend</dir>
       <dir>C:\xampp\htdocs\magento</dir>
       <dir>C:\xampp\htdocs\magento\app</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\base\default\template\page</dir>
@@ -435,8 +130,9 @@
       <dir>C:\xampp\htdocs\magento\app\design\frontend\base\</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\lp\default\template</dir>
       <dir>C:\xampp\htdocs\magento\app\design</dir>
-      <dir>C:\xampp\htdocs\magento\app\design\frontend\lp</dir>
       <dir>C:\xampp\htdocs\magento\app\code\local\BootstrapNavigation</dir>
+      <dir>C:\xampp\htdocs\magento\app\design\frontend</dir>
+      <dir>C:\xampp\htdocs\magento\app\design\frontend\lp</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -445,13 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="F:/system/AppData/Local/Temp/Rar$DIa0.396/browserconfig.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/etc/widget.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/js/cookie.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/etc/theme.xml" />
-        <option value="F:/system/AppData/Local/Temp/fz3temp-3/ProductController.php" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/js/script.js" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/package.json" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/css/style.css" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/variables.scss" />
@@ -465,7 +154,6 @@
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/gulpfile.js" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/switch_language.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/top_block.scss" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/footer.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/linksblock.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/customer.xml" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -473,29 +161,37 @@
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/navbar-links.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/navbar.scss" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/js/script.js" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalogsearch.xml" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-left.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-right.phtml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Helper/Data.php" />
-        <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/system.xml" />
         <option value="$PROJECT_DIR$/app/etc/modules/BootstrapNavigation.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/topmenu.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/header.scss" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/megamenu.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" />
         <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/1column.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/3columns.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/system.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Model/System/Config/Source/Maxdepth.php" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/js/script.js" />
+        <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/breadcrumbs.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/newsletter/subscribe.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/newsletter.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/footer.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml" />
       </list>
     </option>
   </component>
@@ -677,6 +373,78 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -689,6 +457,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -831,6 +639,128 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -978,15 +908,15 @@
       <workItem from="1491040563403" duration="46000" />
       <workItem from="1491040687483" duration="83000" />
       <workItem from="1491040867108" duration="17050000" />
-      <workItem from="1491063613878" duration="16156000" />
+      <workItem from="1491063613878" duration="24765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46669000" />
+    <option name="totallyTimeSpent" value="55278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -995,7 +925,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45008183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27912253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30711043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47790506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1059,115 +989,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/iphone/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="54" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/etc/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="n#block#1;n#reference#0;n#default#0;n#layout#0;n#!!top" expanded="false" />
-            <element signature="n#action#0;n#reference#0;n#default#0;n#layout#0;n#!!top" expanded="false" />
-            <element signature="n#action#1;n#reference#0;n#default#0;n#layout#0;n#!!top" expanded="false" />
-            <element signature="n#action#2;n#reference#0;n#default#0;n#layout#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="60" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/wrapper.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/container.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/customer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="294" column="86" lean-forward="true" selection-start-line="294" selection-start-column="86" selection-end-line="294" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="213" column="86" lean-forward="false" selection-start-line="213" selection-start-column="86" selection-end-line="213" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalogsearch.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-left.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1188,14 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html/Topmenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1221,16 +1034,8 @@
         <state relative-caret-position="45">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="55" selection-end-column="14" />
           <folding>
-            <element signature="e#1169#1238#0#PHP" expanded="true" />
+            <element signature="e#1169#1238#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/BootstrapNavigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,8 +1052,8 @@
         <state relative-caret-position="112">
           <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
-            <element signature="e#6#134#0#PHP" expanded="true" />
-            <element signature="e#144#213#0#PHP" expanded="true" />
+            <element signature="e#6#134#0#PHP" expanded="false" />
+            <element signature="e#144#213#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1257,14 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="55" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1285,74 +1082,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/megamenu.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#134#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/Model/System/Config/Source/Maxdepth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#134#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
-            <element signature="e#6#134#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/system.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#134#0#PHP" expanded="true" />
+            <element signature="e#6#134#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1434,7 +1169,7 @@
         <state relative-caret-position="-547">
           <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <element signature="e#978#1055#0#PHP" expanded="true" />
+            <element signature="e#978#1055#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1443,24 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#134#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1485,6 +1202,214 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/megamenu.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#6#134#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/BootstrapNavigation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/etc/system.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/Model/System/Config/Source/Maxdepth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#134#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html/Topmenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="137" column="53" lean-forward="false" selection-start-line="137" selection-start-column="53" selection-end-line="137" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#134#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="277" column="1" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="277" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="381" column="64" lean-forward="true" selection-start-line="381" selection-start-column="64" selection-end-line="381" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/breadcrumbs.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/linksblock.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/notices.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/newsletter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="n#block#0;n#block#0;n#default#0;n#layout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/newsletter/subscribe.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/links.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/footer.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>

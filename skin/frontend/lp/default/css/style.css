@@ -601,4 +601,55 @@ header {
       color: #edf1f2; }
   header .mega-menu {
     background-color: #fff;
-    padding: 11px 12px 11px 155px; }
+    padding: 11px 0 27px 155px; }
+    header .mega-menu .navbar-nav {
+      margin: 0; }
+      header .mega-menu .navbar-nav .dropdown-menu {
+        padding: 0;
+        left: 10px;
+        border: 1px solid #b8b8b8;
+        box-shadow: none; }
+        header .mega-menu .navbar-nav .dropdown-menu.level1 {
+          left: 100%;
+          top: 50%;
+          margin-left: -19.5px;
+          margin-top: -4px; }
+      header .mega-menu .navbar-nav li a {
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding: 10px; }
+      header .mega-menu .navbar-nav li.level1 + .level1 {
+        border-top: 1px solid #b8b8b8; }
+      header .mega-menu .navbar-nav li.level1.active > a {
+        background-color: #6fcfbc; }
+      header .mega-menu .navbar-nav li.level1 a {
+        font-size: 1.4rem;
+        color: #535355;
+        background-color: #f3f3f3;
+        font-weight: normal;
+        position: relative; }
+        header .mega-menu .navbar-nav li.level1 a .caret {
+          position: absolute;
+          right: 5px;
+          top: 50%;
+          margin-top: -2px;
+          -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+      header .mega-menu .navbar-nav li.level2 + .level2 {
+        border-top: 1px solid #b8b8b8; }
+      header .mega-menu .navbar-nav li.level2.active > a {
+        background-color: #6fcfbc; }
+      header .mega-menu .navbar-nav li.level2 a {
+        background-color: #dcdcdc; }
+
+.footer {
+  background: #fff;
+  padding: 0 15px;
+  margin-bottom: 20px; }
+  .footer .copyright {
+    border-top: 1px solid #e0e0e0;
+    padding: 15px 10px 20px 10px; }
+  .footer .menus {
+    border-top: 1px solid #e0e0e0; }
