@@ -1,0 +1,13 @@
+.telephone {
+  font-size: 1.8rem;
+  color: #1ebd9d;
+  font-family: "Bebas", sans-serif;
+
+  a {
+    color: #1ebd9d;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

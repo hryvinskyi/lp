@@ -1,0 +1,39 @@
+.social-icons {
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+
+      &.facebook {
+        a {
+          background-position: 0 0;
+        }
+      }
+
+      &.twitter {
+        a {
+          background-position: -25px 0;
+        }
+      }
+
+      &.rss {
+        a {
+          background-position: -50px 0;
+        }
+      }
+
+      a {
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        background: url("#{$images-path}/core/social_icons.jpg") no-repeat;
+        @include hide-text;
+      }
+    }
+  }
+}

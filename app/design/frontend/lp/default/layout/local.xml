@@ -11,6 +11,7 @@
 -->
 <layout version="0.1.0">
     <default>
+        <remove name="paypal.partner.right.logo"/>
         <reference name="head">
             <block type="core/text" name="google.jquery">
                 <action method="setText">

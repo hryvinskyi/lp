@@ -15,3 +15,15 @@ body {
   @include clearfix;
   padding: 0 15px;
 }
+
+//[class*="col-"] > .banner {
+//  margin: 0 20px;
+//}
+
+.banner {
+  margin: 0 0 20px 0;
+
+  &.baner_1 {
+    margin-bottom: 33px;
+  }
+}

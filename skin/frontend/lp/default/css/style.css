@@ -488,6 +488,22 @@
 .select2-container--classic.select2-container--open .select2-dropdown {
   border-color: #5897fb; }
 
+/*!
+ * Copyright (c) 2017. Volodumur Hryvinskyi
+ * @author   Volodumur Hryvinskyi <script@email.ua>
+ * @package  scriptua\lp
+ */
+@font-face {
+  font-family: 'Bauhaus 93';
+  src: url("../fonts/bauhs/BAUHS93.eot");
+  src: local("Bauhaus 93"), url("../fonts/bauhs/BAUHS93.woff") format("woff"), url("../fonts/bauhs/BAUHS93.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Bebas';
+  src: url("../fonts/bebas/bebas-webfont.woff2") format("woff2"), url("../fonts/bebas/bebas-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 html {
   font-size: 10px; }
 
@@ -505,6 +521,11 @@ body {
     display: table; }
   .main-container:after {
     clear: both; }
+
+.banner {
+  margin: 0 0 20px 0; }
+  .banner.baner_1 {
+    margin-bottom: 33px; }
 
 header {
   position: relative; }
@@ -651,5 +672,55 @@ header {
   .footer .copyright {
     border-top: 1px solid #e0e0e0;
     padding: 15px 10px 20px 10px; }
+  .footer .address {
+    color: #b0b0b0;
+    margin-bottom: 15px; }
   .footer .menus {
-    border-top: 1px solid #e0e0e0; }
+    margin-bottom: 20px; }
+    .footer .menus .block-title {
+      font-weight: 700;
+      font-size: 1.7rem;
+      color: #585858;
+      text-transform: uppercase; }
+    .footer .menus .links ul {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+      .footer .menus .links ul li a {
+        font-size: 14px;
+        color: #b0b0b0; }
+        .footer .menus .links ul li a:hover, .footer .menus .links ul li a:focus, .footer .menus .links ul li a:active {
+          font-weight: bold;
+          color: #1ebd9d;
+          text-decoration: none; }
+  .footer .telephone {
+    font-size: 1.8rem;
+    color: #1ebd9d;
+    font-family: "Bebas", sans-serif; }
+    .footer .telephone a {
+      color: #1ebd9d; }
+      .footer .telephone a:hover {
+        text-decoration: none; }
+  .footer .social-icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .footer .social-icons ul li {
+      display: inline-block; }
+      .footer .social-icons ul li.facebook a {
+        background-position: 0 0; }
+      .footer .social-icons ul li.twitter a {
+        background-position: -25px 0; }
+      .footer .social-icons ul li.rss a {
+        background-position: -50px 0; }
+      .footer .social-icons ul li a {
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        background: url("../images/core/social_icons.jpg") no-repeat;
+        font: 0/0 a;
+        color: transparent;
+        text-shadow: none;
+        background-color: transparent;
+        border: 0; }

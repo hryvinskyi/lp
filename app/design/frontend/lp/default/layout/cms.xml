@@ -14,6 +14,9 @@
             <block type="cms/block" name="footer_why_buy_from_us" after="footer_links3">
                 <action method="setBlockId"><block_id>footer_why_buy_from_us</block_id></action>
             </block>
+            <block type="cms/block" name="my_account" after="footer_links4">
+                <action method="setBlockId"><block_id>my_account</block_id></action>
+            </block>
             <block type="cms/block" name="footer_contacts" after="contacts">
                 <action method="setBlockId"><block_id>footer_contacts</block_id></action>
             </block>

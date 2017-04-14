@@ -6,8 +6,17 @@
 
 @font-face {
   font-family: 'Bauhaus 93';
-  src: url('#{$fonts-path}/BAUHS93.eot');
+  src: url('#{$fonts-path}/bauhs/BAUHS93.eot');
   src: local('Bauhaus 93'),
-  url('#{$fonts-path}/BAUHS93.woff') format('woff'),
-  url('#{$fonts-path}/BAUHS93.ttf') format('truetype');
+       url('#{$fonts-path}/bauhs/BAUHS93.woff') format('woff'),
+       url('#{$fonts-path}/bauhs/BAUHS93.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('#{$fonts-path}/bebas/bebas-webfont.woff2') format('woff2'),
+       url('#{$fonts-path}/bebas/bebas-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
