@@ -1,0 +1,104 @@
+1) В настройках System -> configuration -> Design добавив пакет теми "lp";
+2) В настройках System -> configuration -> Manage Stores Добавив 2 мови сайту і переіменував Main Website на English
+3) В настройках System -> configuration -> Catalog -> Category Top Navigation виключив Show Top Level Links in Dropdown
+4) В Catalog -> Manage Categories добавив всі категоріх, 3ма рівнями.
+5) В CMS -> Pages відредагував сторінку Home Page і добавив їй контент:
+    <div class="page-title">
+        <h2>Home Page</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="banner">
+                        <img alt="" class="img-responsive" src="{{media url="wysiwyg/new_collection.jpg"}}" />
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="banner baner_1">
+                        <img alt="" class="img-responsive" src="{{media url="wysiwyg/baner_1.jpg"}}" />
+                    </div>
+                    <div class="banner baner_2">
+                        <img alt="" class="img-responsive" src="{{media url="wysiwyg/baner_2.jpg"}}" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="banner baner_3">
+                        <img alt="" class="img-responsive" src="{{media url="wysiwyg/baner_3.jpg"}}" />
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="banner baner_4">
+                        <img alt="" class="img-responsive" src="{{media url="wysiwyg/baner_4.jpg"}}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+6) В CMS -> Static Blocks добавив наступні блоки
+    1) Title: Information
+       Identifier: footer_information
+       Content:
+            <div class="col-sm-3">
+            <div class="links">
+            <div class="block-title"><strong><span>Information</span></strong></div>
+            <ul>
+            <li><a href="{{store url=""}}/about-magento-demo-store/">About Us</a></li>
+            <li><a href="{{store url=""}}/customer-service/">Customer Service</a></li>
+            <li><a href="{{store url=""}}/privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+            <li><a href="{{store url=""}}/catalog/seo_sitemap/category/">Site map</a></li>
+            <li><a href="{{store url=""}}/catalogsearch/term/popular/">Search Terms</a></li>
+            <li><a href="{{store url=""}}/catalogsearch/advanced/">Advanced Search</a></li>
+            <li><a href="{{store url=""}}/sales/guest/form/">Orders and Returns</a></li>
+            <li><a href="{{store url=""}}/contacts/">Contact Us</a></li>
+            </ul>
+            </div>
+            </div>
+
+    2) Title: Why buy from us
+       Identifier: footer_why_buy_from_us
+       Content:
+            <div class="col-sm-3">
+            <div class="links">
+            <div class="block-title"><strong><span>Why buy from us</span></strong></div>
+            <ul>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Secure Shopping</a></li>
+            <li><a href="#">International Shipping</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Group Sales</a></li>
+            </ul>
+            </div>
+            </div>
+
+    3) Title: My Account
+       Identifier: my_account
+       Content:
+            <div class="col-sm-3">
+            <div class="links">
+            <div class="block-title"><strong><span>My Account</span></strong></div>
+            <ul>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">View Cart</a></li>
+            <li><a href="#">My Wishlist</a></li>
+            <li><a href="#">Track My Order</a></li>
+            <li><a href="#">Help</a></li>
+            </ul>
+            </div>
+            </div>
+
+    4) Title: Contacts
+       Identifier: footer_contacts
+       Content:
+            <div class="col-sm-3">
+            <div class="block-title"><strong><span>Contacts</span></strong></div>
+            <div class="address">38 Anson Road<br>Martlesham Heath</div>
+            <div class="telephone">Tel: <a href="tel:12455873656">1(245)587-36-56</a></div>
+            <div class="social-icons">
+            <ul>
+            <li class="facebook"><a href="#">Facebook</a></li>
+            <li class="twitter"><a href="#">Twitter</a></li>
+            <li class="rss"><a href="#">Rss</a></li>
+            </ul>
+            </div>
+            </div>
