@@ -1,11 +1,15 @@
 .menus {
+  border-top: 1px solid #e0e0e0;
   margin-bottom: 20px;
+  padding-top: 20px;
+  line-height: 18px;
 
   .block-title {
     font-weight: 700;
     font-size: 1.7rem;
     color: #585858;
     text-transform: uppercase;
+    margin-bottom: 10px;
   }
 
   .links {
@@ -15,6 +19,7 @@
       list-style: none;
 
       li {
+        line-height: 24px;
 
         a {
           font-size: 14px;

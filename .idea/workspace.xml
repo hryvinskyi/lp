@@ -2,8 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2129b6b-70b0-41d1-9f70-995e2424e3ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/bg_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/demo-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/demo_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/icon_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/icon_sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/logo_email.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/logo_print.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_banner_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_banner_1@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_banner_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_callout_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_callout_1@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_callout_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_callout_2@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_callout_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/media/homepage_callout_3@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/opc-ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/social_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/images/social_icons@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/madisonisland-ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/madisonisland.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/scaffold-forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/styles-ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/configurableswatches/configurable-swatch-prices.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/configurableswatches/product-media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/configurableswatches/swatches-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/configurableswatches/swatches-product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/elevatezoom/jquery.elevateZoom-3.0.8.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/elevatezoom/jquery.elevatezoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/enquire.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/imagesloaded.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/jquery.cycle2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/jquery.cycle2.swipe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/matchMedia.addListener.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/matchMedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/modernizr.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/lib/selectivizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/minicart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/opcheckout_rwd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/js/slideshow.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/css/style.css" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/fonts/bebas/bebas___-webfont.woff2" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/fonts/bebas/bebas-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/style.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalog_msrp.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalog_msrp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/gulpfile.js" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/menus.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/menus.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/navbar.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/top_block.scss" afterPath="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/top_block.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,25 +112,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="menus.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/menus.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manifest.txt">
+      <file leaf-file-name="core.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state relative-caret-position="526">
+              <caret line="42" column="2" lean-forward="false" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -80,59 +139,64 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Home</find>
-      <find>search_mini_form</find>
-      <find>inp</find>
-      <find>input-h</find>
-      <find>topSearch</find>
-      <find>col2-right-layout</find>
-      <find>dropdown</find>
-      <find>Webcomm_</find>
-      <find>breadcrumb</find>
-      <find>footer_links_company</find>
-      <find>Translator</find>
-      <find>searchForm = new Varien</find>
-      <find>newsletterSubscriberFormDetail</find>
-      <find>subscribe</find>
-      <find>subs</find>
-      <find>Additional Options</find>
-      <find>Orders and Returns</find>
-      <find>а</find>
-      <find>f</find>
-      <find>fo</find>
-      <find>foot</find>
-      <find>Shipping &amp; Returns</find>
-      <find>foo</find>
-      <find>RewriteEngine</find>
-      <find>footer</find>
       <find>paypal-logo</find>
       <find>Paypal</find>
       <find>Pp</find>
       <find>paypal</find>
       <find>us_logo</find>
+      <find>demo-notice</find>
+      <find>/msrp_rwd.js</find>
+      <find>msrp.js</find>
+      <find>msrp_rwd.js</find>
+      <find>msrp_rwd.j</find>
+      <find>msrp_rwd.</find>
+      <find>msrp_rwd</find>
+      <find>msrp_rw</find>
+      <find>msrp_r</find>
+      <find>rwd</find>
+      <find>msrp_</find>
+      <find>msrp_button search-button</find>
+      <find>search-button</find>
+      <find>query.elevateZoom-3.0.8.min.js</find>
+      <find>new Translate</find>
+      <find>Translator = new Translate</find>
+      <find>Translator</find>
+      <find>Register</find>
+      <find>.footer .links</find>
+      <find>.footer .menus .block-title</find>
+      <find>.block-title</find>
+      <find>.block-title {</find>
+      <find>.block-title strong</find>
+      <find>baner_</find>
+      <find>bread</find>
     </findStrings>
     <replaceStrings>
       <replace>BackendController</replace>
       <replace />
+      <replace>banner</replace>
+      <replace>banner_</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>C:\xampp\htdocs\magento\app</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\base\default\template\page</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\base\default\template\poll</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\base\</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\lp\default\template</dir>
       <dir>C:\xampp\htdocs\magento\app\code\local\BootstrapNavigation</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\lp\default</dir>
-      <dir>C:\xampp\htdocs\magento\app\design\frontend</dir>
-      <dir>C:\xampp\htdocs\magento\app\design\frontend\lp</dir>
       <dir>C:\xampp\htdocs\magento\app\design\frontend\lp\default\layout</dir>
       <dir>C:\xampp\htdocs\magento\app\design</dir>
+      <dir>C:\xampp\htdocs\magento\app</dir>
+      <dir>C:\xampp\htdocs\magento\app\design\frontend\lp</dir>
+      <dir>C:\xampp\htdocs\magento\skin\frontend</dir>
       <dir>C:\xampp\htdocs\magento</dir>
+      <dir>C:\xampp\htdocs\magento\app\design\frontend</dir>
+      <dir>C:\xampp\htdocs\magento\skin\frontend\lp\default</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -141,17 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/top_block.scss" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/linksblock.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/customer.xml" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/navbar-links.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/template/navbar-links.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/navbar.scss" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalogsearch.xml" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-left.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/2columns-right.phtml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Helper/Data.php" />
@@ -165,33 +218,44 @@
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/js/script.js" />
         <option value="$PROJECT_DIR$/app/code/local/BootstrapNavigation/Block/Page/Html/Topmenu.php" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/breadcrumbs.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/newsletter/subscribe.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/newsletter.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/header.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/footer.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/3columns.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/1column.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/menus.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/fonts.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/style.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/phone.scss" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/social_icons.scss" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/review.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/view.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.admin_assert" />
         <option value="dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.cms_block" />
         <option value="$PROJECT_DIR$/manifest.txt" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/css/main.css" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalog_msrp.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/gulpfile.js" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/js/script.js" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/top_block.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/navbar.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/css/styles.css" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" />
+        <option value="$PROJECT_DIR$/var/q.html" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/menus.scss" />
+        <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" />
       </list>
     </option>
   </component>
@@ -222,7 +286,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -241,7 +305,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,31 +317,292 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oakcmstest" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="add_unversioned_files" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\images" />
+      <recent name="C:\xampp\htdocs\magento\app\design\frontend\lp" />
+      <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\css" />
+      <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\js" />
+      <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\fonts\bebas" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\magento\app\design\frontend\lp\boilerplate" />
       <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\fonts\bauhs" />
       <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\src\images\core" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\fonts\bebas" />
-      <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default\fonts" />
-      <recent name="C:\xampp\htdocs\magento\skin\frontend\lp\default" />
-      <recent name="C:\xampp\htdocs\magento\app\design\frontend\lp\default\etc" />
-      <recent name="C:\xampp\htdocs\magento\app\design\frontend\lp\default\layout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,27 +709,37 @@
       <workItem from="1492100711564" duration="1991000" />
       <workItem from="1492167361989" duration="5205000" />
       <workItem from="1492631077620" duration="1999000" />
-      <workItem from="1492644408057" duration="1934000" />
+      <workItem from="1492644408057" duration="2013000" />
+      <workItem from="1492783045992" duration="607000" />
+      <workItem from="1492790320306" duration="1233000" />
+      <workItem from="1492852099818" duration="372000" />
+      <workItem from="1492852509241" duration="54000" />
+      <workItem from="1492852739665" duration="267000" />
+      <workItem from="1492853041958" duration="615000" />
+      <workItem from="1492853689428" duration="8767000" />
+      <workItem from="1492958533633" duration="37000" />
+      <workItem from="1492958594414" duration="3995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66919000" />
+    <option name="totallyTimeSpent" value="82945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4582701" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45826513" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45008183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29847327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45008183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -417,7 +751,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5159332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5053111" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5053111" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47790506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -466,463 +799,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/phone.scss">
+    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.sales_payment_transaction" />
+    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.sales_flat_shipment_grid" />
+    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.sales_flat_invoice_comment" />
+    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.review_status" />
+    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.rating_option_vote" />
+    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.poll" />
+    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.cms_block" />
+    <entry file="file://$PROJECT_DIR$/manifest.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/social_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="80" column="55" lean-forward="false" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/paypal/partner/us_logo.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/review.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/wysiwyg/baner_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/wysiwyg/new_collection.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/wishlist/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2dc2137b-8428-4b2a-b920-a2a549b5211b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/magento2_widget_instance_page.sql" />
-    <entry file="file://$PROJECT_DIR$/magento2_tax_calculation_rule.sql" />
-    <entry file="file://$PROJECT_DIR$/magento2_tag_relation.sql" />
-    <entry file="file://$PROJECT_DIR$/magento2_review.sql" />
-    <entry file="file://$PROJECT_DIR$/magento2_eav_entity_int.sql" />
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.admin_role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.admin_assert">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.api_assert">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalog_category_anc_categs_index_idx">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalog_category_anc_products_index_tmp">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalog_product_entity_group_price">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalog_product_index_eav_tmp">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalog_product_index_price_final_idx">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalog_product_link_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalog_product_website">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.catalogrule_website">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.core_cache_tag">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.core_variable_value">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.customer_eav_attribute">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.dataflow_profile">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.downloadable_sample_title">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.eav_entity_store">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.index_process">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.newsletter_queue">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.wishlist_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.widget_instance">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.tax_calculation_rate_title">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.salesrule_label">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.sales_payment_transaction">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.sales_flat_shipment_grid">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.sales_flat_invoice_comment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.review_status">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.rating_option_vote">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.poll">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e444d8bf/2dc2137b-8428-4b2a-b920-a2a549b5211b/magento2.cms_block">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-509">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -931,16 +818,298 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="165">
             <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.txt">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Page/Block/Html/Notices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/js/configurableswatches/product-media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/skin/frontend/rwd/default/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="10603" column="0" lean-forward="true" selection-start-line="10603" selection-start-column="0" selection-end-line="10603" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/css/madisonisland.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1207">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/rwd/default/js/msrp_rwd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/catalog_msrp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="81" column="100" lean-forward="false" selection-start-line="81" selection-start-column="96" selection-end-line="81" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalog_msrp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/system/AppData/Local/Temp/Rar$DRa0.250/magento-boilerplate-2.0/skin/frontend/boilerplate/default/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/boilerplate/layout/.gitkeep" />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/boilerplate/layout/magentoboilerplate.xml" />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/catalogsearch/form.mini.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="114" lean-forward="false" selection-start-line="14" selection-start-column="114" selection-end-line="14" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/etc/widget.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/etc/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/catalog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="193" column="20" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/images/media/cell_phone_landing_banner1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/images/media/col_left_callout.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4296" lean-forward="false" selection-start-line="6" selection-start-column="4296" selection-end-line="6" selection-end-column="4296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/page/js/translate.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/page/html/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="43" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/page/html/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/bower_components/select2/tests/vendor/qunit-1.23.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="87" lean-forward="false" selection-start-line="17" selection-start-column="87" selection-end-line="18" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/logo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/top_block.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="516" column="21" lean-forward="true" selection-start-line="516" selection-start-column="21" selection-end-line="516" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="650" column="1" lean-forward="false" selection-start-line="650" selection-start-column="1" selection-end-line="650" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/q.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/bootstrap/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="789" column="10" lean-forward="false" selection-start-line="789" selection-start-column="5" selection-end-line="789" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/menus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="42" column="2" lean-forward="false" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
           <folding />
         </state>
       </provider>

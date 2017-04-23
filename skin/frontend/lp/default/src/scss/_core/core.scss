@@ -6,6 +6,10 @@ body {
   background: url("#{$images-path}/core/body_bg.jpg") repeat center;
 }
 
+.wrapper {
+  background: transparent;
+}
+
 .select2-dropdown {
   min-width: 170px;
 }
@@ -21,9 +25,19 @@ body {
 //}
 
 .banner {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 5px;
 
-  &.baner_1 {
-    margin-bottom: 33px;
+  &.banner_1 {
+    margin-bottom: 20px;
   }
+
+  &.banner_2 {}
+
+  &.banner_3 {}
+
+  &.banner_4 {margin-left: 15px}
+}
+
+.breadcrumb {
+  margin-top: 15px;
 }

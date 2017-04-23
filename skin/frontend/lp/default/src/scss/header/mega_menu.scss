@@ -1,6 +1,10 @@
 .mega-menu {
   background-color: #fff;
-  padding: 11px 0 27px 155px;
+  padding: 20px 0 15px 155px;
+
+  .navbar {
+    margin-bottom: 0;
+  }
 
   .navbar-nav {
     margin: 0;
@@ -23,6 +27,7 @@
       a {
         font-size: 1.8rem;
         font-weight: 600;
+        color: #535355;
         padding: 10px;
       }
 

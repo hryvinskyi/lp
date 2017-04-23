@@ -41,11 +41,12 @@
             </action>
             <action method="addItem">
                 <type>skin_css</type>
-                <name>css/bootstrap.css</name>
+                <name>css/styles.css</name>
             </action>
+
             <action method="addItem">
                 <type>skin_css</type>
-                <name>css/style.css</name>
+                <name>css/main.css</name>
             </action>
 
             <action method="addItem">
@@ -56,6 +57,8 @@
 
         <reference name="top.links">
             <remove name="checkout_cart_link"/>
+            <!--<url helper="customer/account/create" />-->
+            <action method="removeLinkByUrl"><url helper="customer/getRegisterUrl"/></action>
             <block type="checkout/links" name="checkout_cart_link_custom">
                 <action method="addCartLink"></action>
                 <!--<action method="addCheckoutLink"></action>-->

@@ -1,4 +1,3 @@
-<?php
 /**
  * Magento
  *
@@ -19,19 +18,31 @@
  * needs please refer to http://www.magento.com for more information.
  *
  * @category    design
- * @package     base_default
+ * @package     rwd_default
  * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
-?>
-<meta http-equiv="Content-Type" content="<?php echo $this->getContentType() ?>" />
-<title><?php echo $this->getTitle() ?></title>
-<meta name="description" content="<?php echo htmlspecialchars($this->getDescription()) ?>" />
-<meta name="keywords" content="<?php echo htmlspecialchars($this->getKeywords()) ?>" />
-<meta name="robots" content="<?php echo htmlspecialchars($this->getRobots()) ?>" />
-<link rel="icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
-<link rel="shortcut icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
-<?php echo $this->getCssJsHtml() ?>
-<?php echo $this->getChildHtml() ?>
-<?php echo $this->helper('core/js')->getTranslatorScript() ?>
-<?php echo $this->getIncludes() ?>
+
+Checkout.prototype.gotoSection = function (section, reloadProgressBlock) {
+    // Adds class so that the page can be styled to only show the "Checkout Method" step
+    if ((this.currentStep == 'login' || this.currentStep == 'billing') && section == 'billing') {
+        $j('body').addClass('opc-has-progressed-from-login');
+    }
+
+    if (reloadProgressBlock) {
+        this.reloadProgressBlock(this.currentStep);
+    }
+    this.currentStep = section;
+    var sectionElement = $('opc-' + section);
+    sectionElement.addClassName('allow');
+    this.accordion.openSection('opc-' + section);
+
+    // Scroll viewport to top of checkout steps for smaller viewports
+    if (Modernizr.mq('(max-width: ' + bp.xsmall + 'px)')) {
+        $j('html,body').animate({scrollTop: $j('#checkoutSteps').offset().top}, 800);
+    }
+
+    if (!reloadProgressBlock) {
+        this.resetPreviousSteps();
+    }
+};

@@ -19,14 +19,14 @@ var config = {
 };
 
 gulp.task('sass', function () {
-    return gulp.src(['./src/scss/style.scss', './src/scss/bootstrap/bootstrap.scss'])
+    return gulp.src(['./src/scss/main.scss', './src/scss/bootstrap/bootstrap.scss'])
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css'));
 });
 
 gulp.task('js', function () {
     var scripts = [
-        'bower_components/jquery/dist/jquery.js',
+        //'bower_components/jquery/dist/jquery.js',
         'bower_components/bootstrap/dist/js/bootstrap.js',
         'bower_components/select2/dist/js/select2.full.min.js',
         // 'bower_components/bootstrap/js/transition.js',

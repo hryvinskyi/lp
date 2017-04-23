@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="magento.hryvinskyi.com" autoUploadExternalChanges="true">
     <serverData>
       <paths name="canculator">
         <serverdata>
@@ -100,6 +100,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="magento.hryvinskyi.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="manager">
         <serverdata>
           <mappings>
@@ -136,5 +143,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

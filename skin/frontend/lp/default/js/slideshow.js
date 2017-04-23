@@ -1,4 +1,3 @@
-<?php
 /**
  * Magento
  *
@@ -19,19 +18,27 @@
  * needs please refer to http://www.magento.com for more information.
  *
  * @category    design
- * @package     base_default
+ * @package     rwd_default
  * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
-?>
-<meta http-equiv="Content-Type" content="<?php echo $this->getContentType() ?>" />
-<title><?php echo $this->getTitle() ?></title>
-<meta name="description" content="<?php echo htmlspecialchars($this->getDescription()) ?>" />
-<meta name="keywords" content="<?php echo htmlspecialchars($this->getKeywords()) ?>" />
-<meta name="robots" content="<?php echo htmlspecialchars($this->getRobots()) ?>" />
-<link rel="icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
-<link rel="shortcut icon" href="<?php echo $this->getFaviconFile(); ?>" type="image/x-icon" />
-<?php echo $this->getCssJsHtml() ?>
-<?php echo $this->getChildHtml() ?>
-<?php echo $this->helper('core/js')->getTranslatorScript() ?>
-<?php echo $this->getIncludes() ?>
+
+$j(document).ready(function () {
+
+    // ==============================================
+    // UI Pattern - Slideshow
+    // ==============================================
+
+    $j('.slideshow-container .slideshow')
+        .cycle({
+            slides: '> li',
+            pager: '.slideshow-pager',
+            pagerTemplate: '<span class="pager-box"></span>',
+            speed: 600,
+            pauseOnHover: true,
+            swipe: true,
+            prev: '.slideshow-prev',
+            next: '.slideshow-next',
+            fx: 'scrollHorz'
+        });
+});

@@ -8,7 +8,7 @@
 
   &__wrap {
     background-color: #535355;
-    padding: 15px 25px;
+    padding: 17px 25px;
     @include clearfix;
 
     .nav-bar-menu {
@@ -20,7 +20,7 @@
         display: inline-block;
 
         + li {
-          margin-left: 10px;
+          margin-left: 20px;
         }
 
         a {
