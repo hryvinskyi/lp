@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--
+  ~ Copyright (c) 2017. Volodumur Hryvinskyi
+  ~ @author   Volodumur Hryvinskyi <script@email.ua>
+  ~ @package  scriptua\lp
+  -->
+<config>
+    <modules>
+        <Lp_Reviews>
+            <version>0.0.1</version>
+        </Lp_Reviews>
+    </modules>
+
+    <frontend>
+        <routers>
+            <lpreviews>
+                <use>standard</use>
+                <args>
+                    <module>Lp_Reviews</module>
+                    <frontName>reviews</frontName>
+                </args>
+            </lpreviews>
+        </routers>
+        <layout>
+            <updates>
+                <lpreviews>
+                    <file>lp_reviews.xml</file>
+                </lpreviews>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <resources>
+            <reviews_setup>
+                <setup>
+                    <module>Lp_Reviews</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </reviews_setup>
+        </resources>
+
+        <models>
+            <lp_reviews>
+                <resourceModel>lp_reviews_resource</resourceModel>
+            </lp_reviews>
+            <lp_reviews_resource>
+                <entities>
+                    <reviews_items>
+                        <table>lp_reviews_items</table>
+                    </reviews_items>
+                </entities>
+            </lp_reviews_resource>
+        </models>
+    </global>
+</config>

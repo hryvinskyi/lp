@@ -36,7 +36,7 @@
         <remove name="left.permanent.callout"/>
 
         <update handle="cms_menu"/>
-        
+
         <reference name="content">
             <block type="core/template" name="page_content_heading" template="cms/content_heading.phtml"/>
             <block type="page/html_wrapper" name="cms.wrapper" translate="label">

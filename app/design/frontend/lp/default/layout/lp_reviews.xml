@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--
+  ~ Copyright (c) 2017. Volodumur Hryvinskyi
+  ~ @author   Volodumur Hryvinskyi <script@email.ua>
+  ~ @package  scriptua\lp
+  -->
+
+<layout>
+    <lpreviews_index_index>
+        <reference name="content">
+            <block type="core/template" template="lp_reviews/index.phtml"/>
+        </reference>
+    </lpreviews_index_index>
+    <lpreviews_index_test>
+        <reference name="content">
+            <block type="core/template" template="lp_reviews/index.phtml"/>
+        </reference>
+    </lpreviews_index_test>
+</layout>

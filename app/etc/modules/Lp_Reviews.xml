@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--
+  ~ Copyright (c) 2017. Volodumur Hryvinskyi
+  ~ @author   Volodumur Hryvinskyi <script@email.ua>
+  ~ @package  scriptua\lp
+  -->
+
+<config>
+    <modules>
+        <Lp_Reviews>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Lp_Reviews>
+    </modules>
+</config>
