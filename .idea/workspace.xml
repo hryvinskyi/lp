@@ -2,42 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2129b6b-70b0-41d1-9f70-995e2424e3ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Lp/Reviews/Helper/Data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Lp/Reviews/controllers/IndexController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Lp/Reviews/etc/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Lp/Reviews/sql/reviews_setup/install-0.0.1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/lp_reviews.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/template/lp_reviews/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/local.xml.additional" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/local.xml.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/BootstrapNavigation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Cm_RedisSession.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Lp_Reviews.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_All.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Api2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Authorizenet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Bundle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Captcha.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Centinel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_ConfigurableSwatches.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Connect.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_CurrencySymbol.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Downloadable.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_ImportExport.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Oauth.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_PageCache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Persistent.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Weee.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_Widget.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Mage_XmlConnect.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Phoenix_Moneybookers.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/local.xml.additional" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/local.xml.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Cm_RedisSession.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_All.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Api.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Api2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Authorizenet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Bundle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Captcha.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Centinel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_ConfigurableSwatches.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Connect.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_CurrencySymbol.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Downloadable.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_ImportExport.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Oauth.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_PageCache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Persistent.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Weee.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_Widget.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Mage_XmlConnect.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/modules/Phoenix_Moneybookers.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml" afterPath="$PROJECT_DIR$/app/design/frontend/lp/default/layout/cms.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,73 +76,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Lp/Reviews/etc/config.xml">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lp_reviews.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/layout/lp_reviews.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/lp/default/template/lp_reviews/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <element signature="e#6#134#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Lp/Reviews/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lp_Reviews.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/etc/modules/Lp_Reviews.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Lp/Reviews/Helper/Data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install-0.0.1.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Lp/Reviews/sql/reviews_setup/install-0.0.1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="310">
+              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -169,7 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>msrp.js</find>
       <find>msrp_rwd.js</find>
       <find>msrp_rwd.j</find>
       <find>msrp_rwd.</find>
@@ -199,6 +127,7 @@
       <find>lpt</find>
       <find>lptestimonials</find>
       <find>agento.hryvinskyi.com</find>
+      <find>/app/etc/modules</find>
     </findStrings>
     <replaceStrings>
       <replace>BackendController</replace>
@@ -249,7 +178,6 @@
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/_core/core.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/header/mega_menu.scss" />
         <option value="$PROJECT_DIR$/skin/frontend/lp/default/src/scss/footer/footer.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/etc/modules/Testimonials.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Testimonials/testimonials_setup/install-0.0.1.php.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Testimonials/testimonials_setup/install-0.0.1.php" />
@@ -283,6 +211,7 @@
         <option value="$PROJECT_DIR$/app/code/local/Lp/Reviews/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/var/report/624409445" />
         <option value="$PROJECT_DIR$/app/code/local/Lp/Reviews/sql/reviews_setup/install-0.0.1.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -355,7 +284,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +298,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,11 +316,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -536,23 +473,22 @@
       <workItem from="1492853689428" duration="8767000" />
       <workItem from="1492958533633" duration="37000" />
       <workItem from="1492958594414" duration="5595000" />
-      <workItem from="1493795276491" duration="19622000" />
+      <workItem from="1493795276491" duration="20018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104167000" />
+    <option name="totallyTimeSpent" value="104563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-138" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45720476" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4496208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4496208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24466951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -619,14 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Poll/sql/poll_setup/mysql4-upgrade-1.5.9.9-1.6.0.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Poll/sql/poll_setup/mysql4-upgrade-1.6.0.0-1.6.0.1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1040,6 +968,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
           <folding />
         </state>
       </provider>
