@@ -661,7 +661,7 @@ header {
         padding: 10px; }
       header .mega-menu .navbar-nav li.level1 + .level1 {
         border-top: 1px solid #b8b8b8; }
-      header .mega-menu .navbar-nav li.level1.active > a {
+      header .mega-menu .navbar-nav li.level1.active > a, header .mega-menu .navbar-nav li.level1:hover > a, header .mega-menu .navbar-nav li.level1:focus > a, header .mega-menu .navbar-nav li.level1:active > a {
         background-color: #6fcfbc; }
       header .mega-menu .navbar-nav li.level1 a {
         font-size: 1.4rem;
@@ -691,7 +691,8 @@ header {
   margin-bottom: 20px; }
   .footer .copyright {
     border-top: 1px solid #e0e0e0;
-    padding: 15px 10px 20px 10px; }
+    padding: 15px 10px 20px 10px;
+    color: #9b9b9b; }
   .footer .address {
     color: #b0b0b0;
     margin-bottom: 15px; }

@@ -5,7 +5,7 @@
       <webServer id="29694ff6-1e80-4f69-ac29-5bba9e26b43f" name="magento.hryvinskyi.com" url="http://ftp.codice.in.ua">
         <fileTransfer host="ftp.codice.in.ua" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
