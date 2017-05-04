@@ -1,14 +1,9 @@
 <?xml version="1.0"?>
 <!--
-/*
- * LP
- *
- * @description  Test task
- * @author       Volodumur Hrivinskyi
- * @package      scriptua/lp
- *
- */
--->
+  ~ Copyright (c) 2017. Volodumur Hryvinskyi
+  ~ @author   Volodumur Hryvinskyi <script@email.ua>
+  ~ @package  scriptua\lp
+  -->
 <layout version="0.1.0">
     <default>
         <remove name="paypal.partner.right.logo"/>
@@ -118,6 +113,15 @@
                     <title>Contacts</title>
                     <prepare/>
                     <position>6</position>
+                </action>
+
+                <action method="addLink" translate="label title" module="customer">
+                    <label>Reviews</label>
+                    <url>reviews</url>
+                    <urlParams helper="core/url/getHomeUrl"/>
+                    <title>Reviews</title>
+                    <prepare/>
+                    <position>7</position>
                 </action>
             </block>
         </reference>

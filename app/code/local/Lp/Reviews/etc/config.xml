@@ -29,7 +29,42 @@
             </updates>
         </layout>
     </frontend>
+
+    <admin>
+        <routers>
+            <lpreviews_admin>
+                <use>admin</use>
+                <args>
+                    <module>Lp_Reviews</module>
+                    <frontName>lpreviews_admin</frontName>
+                </args>
+            </lpreviews_admin>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <menu>
+            <lpreviews module="lpreviews">
+                <title>Reviews</title>
+                <sort_order>77</sort_order>
+                <action>lpreviews_admin/adminhtml_reviews</action>
+            </lpreviews>
+        </menu>
+    </adminhtml>
+
     <global>
+        <helpers>
+            <lpreviews>
+                <class>Lp_Reviews_Helper</class>
+            </lpreviews>
+        </helpers>
+
+        <blocks>
+            <lpreviews>
+                <class>Lp_Reviews_Block</class>
+            </lpreviews>
+        </blocks>
+
         <resources>
             <reviews_setup>
                 <setup>
@@ -41,9 +76,12 @@
 
         <models>
             <lp_reviews>
+                <class>Lp_Reviews_Model</class>
                 <resourceModel>lp_reviews_resource</resourceModel>
             </lp_reviews>
+
             <lp_reviews_resource>
+                <class>Lp_Reviews_Model_Resource</class>
                 <entities>
                     <reviews_items>
                         <table>lp_reviews_items</table>

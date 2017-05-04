@@ -11,7 +11,7 @@
 $this->startSetup();
 
 $table = $this->getConnection()
-    ->newTable($this->getTable('lp_reviews/reviews_items'))
+    ->newTable($this->getTable('lpreviews/reviews_items'))
     ->addColumn('id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
         'identity'  => true,
         'unsigned'  => true,

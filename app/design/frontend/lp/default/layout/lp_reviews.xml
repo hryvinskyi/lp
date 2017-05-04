@@ -11,6 +11,19 @@
             <block type="core/template" template="lp_reviews/index.phtml"/>
         </reference>
     </lpreviews_index_index>
+
+    <lpreviews_index>
+        <reference name="content">
+            <block type="core/template" template="lp_reviews/index.phtml"/>
+        </reference>
+    </lpreviews_index>
+
+    <lpreviews>
+        <reference name="content">
+            <block type="core/template" template="default/lp_reviews/index.phtml"/>
+        </reference>
+    </lpreviews>
+
     <lpreviews_index_test>
         <reference name="content">
             <block type="core/template" template="lp_reviews/index.phtml"/>

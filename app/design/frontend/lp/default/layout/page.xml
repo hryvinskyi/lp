@@ -12,7 +12,7 @@
 <layout version="0.1.0">
     <default translate="label" module="page">
         <label>All Pages</label>
-        <block type="page/html" name="root" output="toHtml" template="page/1columns.phtml">
+        <block type="page/html" name="root" output="toHtml" template="page/1column.phtml">
 
             <block type="page/html_head" name="head" as="head">
                 <action method="addJs"><script>prototype/prototype.js</script></action>

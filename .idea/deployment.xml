@@ -105,6 +105,10 @@
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/var/cache" />
+            <excludedPath path="/var" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="manager">
@@ -115,6 +119,13 @@
         </serverdata>
       </paths>
       <paths name="new.itaro.com.ua">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="oakcms.hryvinskyi">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
