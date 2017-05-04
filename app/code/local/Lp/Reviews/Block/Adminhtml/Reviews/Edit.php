@@ -20,7 +20,7 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Edit extends Mage_Adminhtml_Block_Widge
         $model = Mage::registry('current_review');
 
         if ($model->getId()) {
-            return $helper->__("Edit Review '%s'", $this->escapeHtml($model->getTitle()));
+            return $helper->__("Edit Review '%s'", $this->escapeHtml($model->getId()));
         } else {
             return $helper->__("Add Review");
         }

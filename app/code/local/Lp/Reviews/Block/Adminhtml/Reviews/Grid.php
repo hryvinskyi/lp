@@ -1,10 +1,10 @@
 <?php
+
 /**
  * Copyright (c) 2017. Volodumur Hryvinskyi
  * @author   Volodumur Hryvinskyi <script@email.ua>
  * @package  scriptua\lp
  */
-
 class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
 
@@ -33,10 +33,23 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widge
             'index'  => 'id',
         ]);
 
+        $users = Mage::getModel('customer/customer')->getCollection()
+            ->addAttributeToSelect('firstname')
+            ->addAttributeToSelect('lastname')
+            ->addAttributeToSelect('email');
+
+        $dropDownUsers = [];
+        foreach ($users as $user) {
+            $dropDownUsers[$user->getId()] = $user->getName();
+        }
+
         $this->addColumn('user_id', [
-            'header' => $helper->__('Usear ID'),
-            'index'  => 'id',
-            'type'   => 'text',
+            'header'   => $helper->__('User'),
+            'index'    => 'user_id',
+            //'type'     => 'user_id',
+            'renderer' => 'lpreviews/adminhtml_reviews_columns_user',
+            'type'     => 'options',
+            'options'  => $dropDownUsers
         ]);
 
         $this->addColumn('created_at', [

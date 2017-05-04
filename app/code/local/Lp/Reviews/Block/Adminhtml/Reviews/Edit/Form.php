@@ -5,7 +5,7 @@
  * @author   Volodumur Hryvinskyi <script@email.ua>
  * @package  scriptua\lp
  */
-class Lp_Reviews_Block_Adminhtml_Reviews_Form extends Mage_Adminhtml_Block_Widget_Form
+class Lp_Reviews_Block_Adminhtml_Reviews_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
 {
     protected function _prepareForm()
     {
@@ -25,10 +25,21 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Form extends Mage_Adminhtml_Block_Widge
 
         $fieldset = $form->addFieldset('reviews_form', ['legend' => $helper->__('Reviews Information')]);
 
-        $fieldset->addField('user_id', 'text', [
-            'label'    => $helper->__('User ID'),
+        $users = Mage::getModel('customer/customer')->getCollection()
+            ->addAttributeToSelect('firstname')
+            ->addAttributeToSelect('lastname')
+            ->addAttributeToSelect('email');
+
+        $dropDownUsers = [];
+        foreach ($users as $user) {
+            $dropDownUsers[$user->getId()] = $user->getName();
+        }
+
+        $fieldset->addField('user_id', 'select', [
+            'label'    => $helper->__('User'),
             'required' => true,
-            'name'     => 'title',
+            'name'     => 'user_id',
+            'values'   => $dropDownUsers,
         ]);
 
         $fieldset->addField('content', 'editor', [
@@ -37,12 +48,12 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Form extends Mage_Adminhtml_Block_Widge
             'name'     => 'content',
         ]);
 
-//        $fieldset->addField('created_at', 'date', [
-//            'format' => Mage::app()->getLocale()->getDateFormat(Mage_Core_Model_Locale::FORMAT_TYPE_SHORT),
-//            'image'  => $this->getSkinUrl('images/grid-cal.gif'),
-//            'label'  => $helper->__('Created'),
-//            'name'   => 'created',
-//        ]);
+        $fieldset->addField('created_at', 'date', [
+            'format' => Mage::app()->getLocale()->getDateFormat(Mage_Core_Model_Locale::FORMAT_TYPE_SHORT),
+            'image'  => $this->getSkinUrl('images/grid-cal.gif'),
+            'label'  => $helper->__('Created'),
+            'name'   => 'created_at',
+        ]);
 
         $form->setUseContainer(true);
 

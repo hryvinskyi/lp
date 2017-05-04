@@ -34,12 +34,11 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
     {
         $id = (int)$this->getRequest()->getParam('id');
 
-        $model = Mage::getModel('lp_reviews/reviews');
-
-        if (isset($id) && $id != 0) {
-            $model->load($id);
-        }
-
+//        $model = Mage::getModel('lp_reviews/reviews');
+//        if (isset($id) && $id != 0) {
+//            $model->load($id);
+//        }
+        $model = Mage::getModel('lpreviews/reviews')->load($id);
         Mage::register('current_review', $model);
 
         $this->loadLayout()->_setActiveMenu('lpreviews');
@@ -54,10 +53,10 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
     {
         if ($data = $this->getRequest()->getPost()) {
             try {
-                $model = Mage::getModel('lp_reviews/reviews');
+                $model = Mage::getModel('lpreviews/reviews');
                 $model->setData($data)->setId($this->getRequest()->getParam('id'));
-                if (!$model->getCreated()) {
-                    $model->setCreated(now());
+                if(!$model->getCreatedAt()){
+                    $model->setCreatedAt(now());
                 }
                 $model->save();
 
@@ -67,11 +66,10 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
             } catch (Exception $e) {
                 Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
                 Mage::getSingleton('adminhtml/session')->setFormData($data);
-                $this->_redirect('*/*/edit', [
+                $this->_redirect('*/*/edit', array(
                     'id' => $this->getRequest()->getParam('id'),
-                ]);
+                ));
             }
-
             return;
         }
         Mage::getSingleton('adminhtml/session')->addError($this->__('Unable to find item to save'));
