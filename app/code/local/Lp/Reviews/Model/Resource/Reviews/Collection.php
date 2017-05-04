@@ -5,13 +5,13 @@
  * @package  scriptua\lp
  */
 
-class Lp_Reviews_Model_Resource_Reviews_Collection extends Mage_Core_Model_Resource_Db_Collection_Abstract
+class Lp_Reviews_Model_Resource_Reviews_Collection extends Mage_Core_Model_Mysql4_Collection_Abstract
 {
 
     public function _construct()
     {
         parent::_construct();
-        $this->_init('lp_reviews/reviews');
+        $this->_init('lpreviews/reviews');
     }
 
 }

@@ -11,25 +11,6 @@
         </Lp_Reviews>
     </modules>
 
-    <frontend>
-        <routers>
-            <lpreviews>
-                <use>standard</use>
-                <args>
-                    <module>Lp_Reviews</module>
-                    <frontName>reviews</frontName>
-                </args>
-            </lpreviews>
-        </routers>
-        <layout>
-            <updates>
-                <lpreviews>
-                    <file>lp_reviews.xml</file>
-                </lpreviews>
-            </updates>
-        </layout>
-    </frontend>
-
     <admin>
         <routers>
             <lpreviews_admin>
@@ -52,18 +33,53 @@
         </menu>
     </adminhtml>
 
+    <frontend>
+        <routers>
+            <lpreviews>
+                <use>standard</use>
+                <args>
+                    <module>Lp_Reviews</module>
+                    <frontName>reviews</frontName>
+                </args>
+            </lpreviews>
+        </routers>
+        <layout>
+            <updates>
+                <lpreviews>
+                    <file>lp_reviews.xml</file>
+                </lpreviews>
+            </updates>
+        </layout>
+    </frontend>
+
     <global>
+        <blocks>
+            <lpreviews>
+                <class>Lp_Reviews_Block</class>
+            </lpreviews>
+        </blocks>
+
         <helpers>
             <lpreviews>
                 <class>Lp_Reviews_Helper</class>
             </lpreviews>
         </helpers>
 
-        <blocks>
+        <models>
             <lpreviews>
-                <class>Lp_Reviews_Block</class>
+                <class>Lp_Reviews_Model</class>
+                <resourceModel>lpreviews_resource</resourceModel>
             </lpreviews>
-        </blocks>
+
+            <lpreviews_resource>
+                <class>Lp_Reviews_Model_Resource</class>
+                <entities>
+                    <reviews_items>
+                        <table>lp_reviews_items</table>
+                    </reviews_items>
+                </entities>
+            </lpreviews_resource>
+        </models>
 
         <resources>
             <reviews_setup>
@@ -73,21 +89,5 @@
                 </setup>
             </reviews_setup>
         </resources>
-
-        <models>
-            <lp_reviews>
-                <class>Lp_Reviews_Model</class>
-                <resourceModel>lp_reviews_resource</resourceModel>
-            </lp_reviews>
-
-            <lp_reviews_resource>
-                <class>Lp_Reviews_Model_Resource</class>
-                <entities>
-                    <reviews_items>
-                        <table>lp_reviews_items</table>
-                    </reviews_items>
-                </entities>
-            </lp_reviews_resource>
-        </models>
     </global>
 </config>

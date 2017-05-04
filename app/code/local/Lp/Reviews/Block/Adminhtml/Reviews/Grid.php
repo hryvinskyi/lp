@@ -5,14 +5,21 @@
  * @package  scriptua\lp
  */
 
-
 class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
 
+    public function getRowUrl($model)
+    {
+        return $this->getUrl('*/*/edit', [
+            'id' => $model->getId(),
+        ]);
+    }
+
     protected function _prepareCollection()
     {
-        $collection = Mage::getModel('lp_reviews/reviews')->getCollection();
+        $collection = Mage::getModel('lpreviews/reviews')->getCollection();
         $this->setCollection($collection);
+
         return parent::_prepareCollection();
     }
 
@@ -21,22 +28,22 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widge
 
         $helper = Mage::helper('lpreviews');
 
-        $this->addColumn('id', array(
+        $this->addColumn('id', [
             'header' => $helper->__('Review ID'),
-            'index' => 'id'
-        ));
+            'index'  => 'id',
+        ]);
 
-        $this->addColumn('user_id', array(
+        $this->addColumn('user_id', [
             'header' => $helper->__('Usear ID'),
-            'index' => 'id',
-            'type' => 'text',
-        ));
+            'index'  => 'id',
+            'type'   => 'text',
+        ]);
 
-        $this->addColumn('created_at', array(
+        $this->addColumn('created_at', [
             'header' => $helper->__('Created'),
-            'index' => 'created_at',
-            'type' => 'date',
-        ));
+            'index'  => 'created_at',
+            'type'   => 'date',
+        ]);
 
         return parent::_prepareColumns();
     }
@@ -46,17 +53,11 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widge
         $this->setMassactionIdField('id');
         $this->getMassactionBlock()->setFormFieldName('reviews');
 
-        $this->getMassactionBlock()->addItem('delete', array(
+        $this->getMassactionBlock()->addItem('delete', [
             'label' => $this->__('Remove'),
-            'url' => $this->getUrl('*/*/massDelete'),
-        ));
-        return $this;
-    }
+            'url'   => $this->getUrl('*/*/massDelete'),
+        ]);
 
-    public function getRowUrl($model)
-    {
-        return $this->getUrl('*/*/edit', array(
-            'id' => $model->getId(),
-        ));
+        return $this;
     }
 }

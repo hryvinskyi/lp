@@ -5,12 +5,12 @@
  * @package  scriptua\lp
  */
 
-class Lp_Reviews_Model_Resource extends Mage_Core_Model_Resource_Db_Abstract
+class Lp_Reviews_Model_Resource_Reviews extends Mage_Core_Model_Mysql4_Abstract
 {
 
     public function _construct()
     {
-        $this->_init('lp_reviews/reviews_items', 'id');
+        $this->_init('lpreviews/reviews_items', 'id');
     }
 
 }

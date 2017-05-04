@@ -12,27 +12,6 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
      */
     public function indexAction()
     {
-//        $model = Mage::getModel('lp_reviews/reviews');
-//        $collection = $model->getCollection();
-//        $reviews = $collection->setOrder('created_at', 'DESC');
-
-//        $resource = Mage::getSingleton('core/resource');
-//        $read = $resource->getConnection('core_read');
-//        $table = $resource->getTableName('lpreviews/reviews_items');
-//
-//        $select = $read->select()
-//            ->from($table, array('id', 'user_id', 'content', 'created_at'))
-//            ->order('created_at DESC');
-//
-//        $reviews = $read->fetchAll($select);
-//
-
-//        var_dump($collection);exit;
-//        echo '<h1>Reviews</h1>';
-//        foreach ($reviews as $item) {
-//            echo '<h2>' . $item->getTitle() . '</h2>';
-//        }
-
         $this->loadLayout()->_setActiveMenu('lpreviews');
 
         $contentBlock = $this->getLayout()->createBlock('lpreviews/adminhtml_reviews');
