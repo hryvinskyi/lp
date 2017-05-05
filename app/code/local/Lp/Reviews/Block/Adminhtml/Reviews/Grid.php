@@ -46,7 +46,6 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widge
         $this->addColumn('user_id', [
             'header'   => $helper->__('User'),
             'index'    => 'user_id',
-            //'type'     => 'user_id',
             'renderer' => 'lpreviews/adminhtml_reviews_columns_user',
             'type'     => 'options',
             'options'  => $dropDownUsers
