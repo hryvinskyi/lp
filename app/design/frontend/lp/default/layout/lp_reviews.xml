@@ -7,26 +7,25 @@
 
 <layout>
     <lpreviews_index_index>
-        <reference name="content">
-            <block type="core/template" template="lp_reviews/index.phtml"/>
+        <reference name="root">
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
         </reference>
+
+        <reference name="content">
+            <block type="core/template" name="lp_reviews_index" template="lp_reviews/index.phtml">
+                <block type="lpreviews/form" name="lp_reviews_form" as="lp_reviews_form"
+                       template="lp_reviews/form.phtml"/>
+
+                <block type="lpreviews/items" name="lp_reviews_items" as="lp_reviews_items"
+                       template="lp_reviews/items.phtml"/>
+            </block>
+        </reference>
+
+        <reference name="custom.pager">
+            <action method="setTemplate"><template>lp_reviews/pager.phtml</template></action>
+        </reference>
+        <!--<reference name="lp_reviews_index">-->
+            <!--<block type="core/template" name="lp_reviews_form" as="lp_reviews_form" template="lp_reviews/form.phtml"/>-->
+        <!--</reference>-->
     </lpreviews_index_index>
-
-    <lpreviews_index>
-        <reference name="content">
-            <block type="core/template" template="lp_reviews/index.phtml"/>
-        </reference>
-    </lpreviews_index>
-
-    <lpreviews>
-        <reference name="content">
-            <block type="core/template" template="default/lp_reviews/index.phtml"/>
-        </reference>
-    </lpreviews>
-
-    <lpreviews_index_test>
-        <reference name="content">
-            <block type="core/template" template="lp_reviews/index.phtml"/>
-        </reference>
-    </lpreviews_index_test>
 </layout>

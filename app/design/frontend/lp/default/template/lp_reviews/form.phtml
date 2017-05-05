@@ -1,0 +1,30 @@
+<?php
+/**
+ * Copyright (c) 2017. Volodumur Hryvinskyi
+ * @author   Volodumur Hryvinskyi <script@email.ua>
+ * @package  scriptua\lp
+ */
+
+/**
+ * @var $this Lp_Reviews_Block_Form
+ */
+
+?>
+<div class="reviews_form collapse">
+    <?php if (Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+        <form action="<?php echo $this->getAction() ?>" method="post">
+            <h3><?php echo $this->__('Add Testimonial') ?></h3>
+            <input type="hidden" name="user_id"
+                   value="<?php echo Mage::getSingleton('customer/session')->getId() ?>">
+
+            <div class="form-group">
+                <label for="review_content"><?php echo $this->__('Text') ?></label>
+                <textarea name="content" id="review_content" class="form-control"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    <?php else: ?>
+        <?php echo $this->__('You are not registered.') ?>
+    <?php endif; ?>
+</div>

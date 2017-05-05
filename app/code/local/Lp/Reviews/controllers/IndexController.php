@@ -7,18 +7,17 @@
 
 class Lp_Reviews_IndexController extends Mage_Core_Controller_Front_Action
 {
-    public function testAction() {
-        $this->loadLayout();
-
-        $layoutHandles = $this->getLayout()->getUpdate()->getHandles();
-
-        echo '<pre>' . print_r($layoutHandles, true) . '</pre>';
-
-        //$this->renderLayout();
-    }
-
-
     public function indexAction() {
         $this->loadLayout()->renderLayout();
+    }
+
+    public function addAction() {
+        if ($data = $this->getRequest()->getPost()) {
+            $model = Mage::getModel('lpreviews/reviews');
+            $model->setData($data);
+            $model->setCreatedAt(now());
+            $model->save();
+        }
+        $this->_redirect('*/*/');
     }
 }

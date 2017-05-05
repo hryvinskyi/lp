@@ -532,7 +532,7 @@ body {
   .banner.banner_4 {
     margin-left: 15px; }
 
-.breadcrumb {
+.main {
   margin-top: 15px; }
 
 header {
@@ -685,6 +685,11 @@ header {
       header .mega-menu .navbar-nav li.level2 a {
         background-color: #dcdcdc; }
 
+/*!
+ * Copyright (c) 2017. Volodumur Hryvinskyi
+ * @author   Volodumur Hryvinskyi <script@email.ua>
+ * @package  scriptua\lp
+ */
 .footer {
   background: #fff;
   padding: 0 15px;

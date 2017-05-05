@@ -11,7 +11,16 @@
 
 // Selec2
 @import "../../bower_components/select2/src/scss/core";
+
+// Core
 @import "_core/fonts";
 @import "_core/core";
+
+// Header
 @import "header/header";
+
+// Reviews
+@import "reviews/reviews";
+
+// Footer
 @import "footer/footer";
