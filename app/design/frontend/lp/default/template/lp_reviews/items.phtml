@@ -10,23 +10,25 @@
  */
 
 $collection = $this->getCollection();
+
 ?>
 
-<table class="data-table" id="my-custom-table">
-    <thead>
-    <tr>
-        <th><?php echo $this->__('Title') ?></th>
-        <th><span class="nobr"><?php echo $this->__('Created at') ?></span></th>
-    </tr>
-    </thead>
-    <tbody>
-    <?php $_odd = ''; ?>
+<div class="reviews_items">
     <?php foreach ($collection as $item): ?>
-        <tr>
-            <td><span class="nobr"><?php echo $item->getContent(); ?></span></td>
-            <td><?php echo $this->formatDate($item->getCreatedAt()) ?></td>
-        </tr>
+        <?php /** @var $item Lp_Reviews_Model_Reviews */ ?>
+        <div class="item">
+            <div class="content">
+                <?php echo $item->getData('content'); ?>
+            </div>
+            <time class="datetime">
+                <span class="nobr"><?php echo $this->__('Created at') ?></span>
+                <?php echo $item->getData('created_at') ?>
+            </time>
+            <div class="name">
+                <?php echo $item->getData('fullname') ?>
+            </div>
+        </div>
     <?php endforeach; ?>
-    </tbody>
-</table>
+</div>
+
 <?php echo $this->getToolbarHtml(); ?>

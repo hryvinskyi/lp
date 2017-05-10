@@ -127,6 +127,40 @@ jQuery.noConflict();
             $select.select2({minimumResultsForSearch: -1});
         };
 
+        var addReview = function () {
+            var form = '.review__add__js',
+                $form = $(form);
+
+            $(document).on('submit', form, function (e) {
+                var data = $form.serialize();
+                $.ajax({
+                    type: 'POST',
+                    url: $form.attr('action'),
+                    dataType: 'json',
+                    data: data,
+                    beforeSend: function() {
+                        $form.find('[type="submit"]').attr('disabled', true);
+                    },
+                    success: function(data) {
+                        if (data['error']) {
+                            alert(data['error']);
+                        } else {
+                            $('.formQuest').trigger('reset');
+                            alert(data['success']);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert(xhr.status);
+                        alert(thrownError);
+                    },
+                    complete: function() {
+                        $form.find('[type="submit"]').prop('disabled', false);
+                    }
+                });
+                return false;
+            });
+        };
+
         return {
 
             /**
@@ -139,6 +173,8 @@ jQuery.noConflict();
                 handleOnResize(); // set and handle responsive
 
                 switchLanguage();
+
+                addReview();
 
                 // Hacks
                 handleFixInputPlaceholderForIE(); //IE8 & IE9 input placeholder issue fix

@@ -46,15 +46,24 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widge
         $this->addColumn('user_id', [
             'header'   => $helper->__('User'),
             'index'    => 'user_id',
-            'renderer' => 'lpreviews/adminhtml_reviews_columns_user',
+            //'renderer' => 'lpreviews/adminhtml_reviews_columns_user',
             'type'     => 'options',
             'options'  => $dropDownUsers
         ]);
 
         $this->addColumn('created_at', [
-            'header' => $helper->__('Created'),
-            'index'  => 'created_at',
-            'type'   => 'date',
+            'header'  => $helper->__('Created'),
+            'index'   => 'created_at',
+        ]);
+
+        $this->addColumn('status', [
+            'header' => $helper->__('Status'),
+            'index'  => 'status',
+            'type'    => 'options',
+            'options' => [
+                0 => $helper->__('Disabled'),
+                1 => $helper->__('Enabled')
+            ]
         ]);
 
         return parent::_prepareColumns();

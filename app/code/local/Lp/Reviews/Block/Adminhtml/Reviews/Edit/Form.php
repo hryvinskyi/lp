@@ -55,6 +55,16 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Edit_Form extends Mage_Adminhtml_Block_
             'name'   => 'created_at',
         ]);
 
+        $fieldset->addField('status', 'select', [
+            'label'    => $helper->__('User'),
+            'required' => true,
+            'name'     => 'status',
+            'values'   => [
+                0 => $helper->__('Disabled'),
+                1 => $helper->__('Enabled')
+            ],
+        ]);
+
         $form->setUseContainer(true);
 
         if ($data = Mage::getSingleton('adminhtml/session')->getFormData()) {
