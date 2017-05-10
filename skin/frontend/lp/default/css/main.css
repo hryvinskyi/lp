@@ -723,6 +723,9 @@ header {
       font-weight: bold;
       padding-left: 5px; }
 
+.reviews .pagination {
+  vertical-align: middle; }
+
 .footer {
   background: #fff;
   padding: 0 15px;
