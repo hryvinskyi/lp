@@ -6,7 +6,10 @@
 
 .reviews {
 
+  &__description {
+    margin-bottom: 15px;
 
+  }
 
   @import "form";
   @import "item";

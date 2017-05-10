@@ -10,21 +10,23 @@
  */
 
 ?>
-<?php if (Mage::getSingleton('customer/session')->isLoggedIn()): ?>
 <div class="reviews_form collapse">
-    <form class="review__add__js" action="<?php echo $this->getAction() ?>" method="post">
-        <h3><?php echo $this->__('Add Testimonial') ?></h3>
-        <input type="hidden" name="user_id"
-               value="<?php echo Mage::getSingleton('customer/session')->getId() ?>">
+    <?php if (Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+        <form class="review__add__js" action="<?php echo $this->getAction() ?>" method="post">
+            <h3><?php echo $this->__('Add Testimonial') ?></h3>
+            <input type="hidden" name="user_id"
+                   value="<?php echo Mage::getSingleton('customer/session')->getId() ?>">
 
-        <div class="form-group">
-            <label for="review_content"><?php echo $this->__('Text') ?></label>
-            <textarea name="content" id="review_content" class="form-control"></textarea>
+            <div class="form-group">
+                <label for="review_content"><?php echo $this->__('Text') ?></label>
+                <textarea name="content" id="review_content" class="form-control"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    <?php else: ?>
+        <div class="alert alert-warning" role="alert">
+            <?php echo $this->__('Register or sign in to add a review.') ?>
         </div>
-
-        <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    <?php endif; ?>
 </div>
-<?php else: ?>
-    <h3><?php echo $this->__('Register or sign in to add a review.') ?></h3>
-<?php endif; ?>

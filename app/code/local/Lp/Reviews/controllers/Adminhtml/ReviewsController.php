@@ -100,7 +100,7 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
     {
         $news = $this->getRequest()->getParam('reviews', null);
 
-        if (is_array($news) && sizeof($news) > 0) {
+        if (is_array($news) && count($news) > 0) {
             try {
                 foreach ($news as $id) {
                     Mage::getModel('lpreviews/reviews')->setId($id)->delete();
@@ -112,6 +112,34 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
         } else {
             $this->_getSession()->addError($this->__('Please select reviews'));
         }
+        $this->_redirect('*/*');
+    }
+
+    /**
+     * Update status action
+     *
+     */
+    public function massStatusAction()
+    {
+        $reviewsIDS = (array)$this->getRequest()->getParam('reviews', null);
+        $status     = (int)$this->getRequest()->getParam('status');
+
+        if(is_array($reviewsIDS) && count($reviewsIDS) > 0) {
+            try {
+                Mage::getSingleton('lpreviews/reviews')
+                    ->updateAttributes($reviewsIDS, array('status' => $status));
+
+                $this->_getSession()->addSuccess(
+                    $this->__('Total of %d record(s) have been updated.', count($reviewsIDS))
+                );
+            }
+            catch (Exception $e) {
+                $this->_getSession()->addError($e->getMessage());
+            }
+        } else {
+            $this->_getSession()->addError($this->__('Please select reviews'));
+        }
+
         $this->_redirect('*/*');
     }
 }

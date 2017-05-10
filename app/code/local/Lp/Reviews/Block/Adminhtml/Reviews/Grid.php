@@ -71,8 +71,26 @@ class Lp_Reviews_Block_Adminhtml_Reviews_Grid extends Mage_Adminhtml_Block_Widge
 
     protected function _prepareMassaction()
     {
+        $helper = Mage::helper('lpreviews');
         $this->setMassactionIdField('id');
         $this->getMassactionBlock()->setFormFieldName('reviews');
+
+        $this->getMassactionBlock()->addItem('status', array(
+            'label'=> $helper->__('Change status'),
+            'url'  => $this->getUrl('*/*/massStatus', array('_current'=>true)),
+            'additional' => array(
+                'visibility' => array(
+                    'name' => 'status',
+                    'type' => 'select',
+                    'class' => 'required-entry',
+                    'label' => $helper->__('Status'),
+                    'values' => [
+                        0 => $helper->__('Disabled'),
+                        1 => $helper->__('Enabled')
+                    ],
+                )
+            )
+        ));
 
         $this->getMassactionBlock()->addItem('delete', [
             'label' => $this->__('Remove'),

@@ -690,13 +690,38 @@ header {
  * @author   Volodumur Hryvinskyi <script@email.ua>
  * @package  scriptua\lp
  */
+.reviews__description {
+  margin-bottom: 15px; }
+
 .reviews .reviews_items {
   margin-bottom: 20px; }
-  .reviews .reviews_items .item .content {
-    background: #ccc;
-    color: #000;
-    padding: 10px;
-    margin: 10px 0 0 0; }
+  .reviews .reviews_items .item {
+    margin-bottom: 20px; }
+    .reviews .reviews_items .item .content {
+      background: #F3F3F3;
+      color: #7A8493;
+      padding: 20px 15px;
+      margin: 0 0 20px 0;
+      position: relative; }
+      .reviews .reviews_items .item .content .date {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+        font-weight: normal; }
+      .reviews .reviews_items .item .content:after {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 20px;
+        bottom: -32px;
+        border: 16px solid transparent;
+        border-top: 16px solid #F3F3F3; }
+    .reviews .reviews_items .item .name {
+      font-weight: bold;
+      padding-left: 5px; }
 
 .footer {
   background: #fff;

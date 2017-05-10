@@ -1,10 +1,10 @@
 <?php
+
 /**
  * Copyright (c) 2017. Volodumur Hryvinskyi
  * @author   Volodumur Hryvinskyi <script@email.ua>
  * @package  scriptua\lp
  */
-
 class Lp_Reviews_Model_Reviews extends Mage_Core_Model_Abstract
 {
     /**
@@ -18,7 +18,7 @@ class Lp_Reviews_Model_Reviews extends Mage_Core_Model_Abstract
 
     public function validate()
     {
-        $errors = array();
+        $errors = [];
 
         if (!Zend_Validate::is($this->getContent(), 'NotEmpty')) {
             $errors[] = Mage::helper('lpreviews')->__('Review content can\'t be empty');
@@ -27,6 +27,19 @@ class Lp_Reviews_Model_Reviews extends Mage_Core_Model_Abstract
         if (empty($errors)) {
             return true;
         }
+
         return $errors;
+    }
+
+    public function updateAttributes($reviewsIds, $attrData)
+    {
+        $reviews = $this->getCollection()
+            ->addFieldToFilter('id', ['in' => $reviewsIds]);
+
+        foreach ($reviews as $product) {
+            $product->setStatus($attrData['status']);
+            $product->save();
+        }
+        return $this;
     }
 }

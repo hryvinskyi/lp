@@ -19,11 +19,11 @@ $collection = $this->getCollection();
         <div class="item">
             <div class="content">
                 <?php echo $item->getData('content'); ?>
+                <time class="date label label-info">
+<!--                    <span class="nobr">--><?php //echo $this->__('Created:') ?><!--</span>-->
+                    <?php echo date('Y-m-d', strtotime($item->getData('created_at'))) ?>
+                </time>
             </div>
-            <time class="datetime">
-                <span class="nobr"><?php echo $this->__('Created at') ?></span>
-                <?php echo $item->getData('created_at') ?>
-            </time>
             <div class="name">
                 <?php echo $item->getData('fullname') ?>
             </div>
