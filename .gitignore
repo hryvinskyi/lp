@@ -1,5 +1,4 @@
 /app/.htaccess
-/app/locale/
 /app/Mage.php
 /RELEASE_NOTES.txt
 /shell/

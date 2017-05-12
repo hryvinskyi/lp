@@ -38,6 +38,7 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
 //        if (isset($id) && $id != 0) {
 //            $model->load($id);
 //        }
+
         $model = Mage::getModel('lpreviews/reviews')->load($id);
         Mage::register('current_review', $model);
 
@@ -53,8 +54,9 @@ class Lp_Reviews_Adminhtml_ReviewsController extends Mage_Adminhtml_Controller_A
     {
         if ($data = $this->getRequest()->getPost()) {
             try {
-                $model = Mage::getModel('lpreviews/reviews');
-                $model->setData($data)->setId($this->getRequest()->getParam('id'));
+                $id = $this->getRequest()->getParam('id');
+                $model = Mage::getModel('lpreviews/reviews')->load($id);
+                $model->setData($data)->setId($id);
                 if(!$model->getCreatedAt()){
                     $model->setCreatedAt(now());
                 }

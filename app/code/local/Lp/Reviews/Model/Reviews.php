@@ -7,6 +7,13 @@
  */
 class Lp_Reviews_Model_Reviews extends Mage_Core_Model_Abstract
 {
+    protected $_eventPrefix = 'lpreviews';
+
+    const XML_PATH_EMAIL_TEMPLATE_ADMIN   = 'lp/lp_group/email_template_admin';
+    const XML_PATH_EMAIL_TEMPLATE_USER    = 'lp/lp_group/email_template_user';
+    const XML_PATH_SENDER_EMAIL_IDENTITY  = 'lp/lp_group/sender_email_identity';
+    const XML_PATH_RECIPIENT_EMAIL        = 'lp/lp_group/recipient_email';
+
     /**
      * @inheritdoc
      */
@@ -16,6 +23,10 @@ class Lp_Reviews_Model_Reviews extends Mage_Core_Model_Abstract
         $this->_init('lpreviews/reviews');
     }
 
+    /**
+     * Validation model attributes
+     * @return array|bool
+     */
     public function validate()
     {
         $errors = [];
@@ -31,6 +42,14 @@ class Lp_Reviews_Model_Reviews extends Mage_Core_Model_Abstract
         return $errors;
     }
 
+    /**
+     * Update Mass status
+     *
+     * @param $reviewsIds
+     * @param $attrData
+     *
+     * @return $this
+     */
     public function updateAttributes($reviewsIds, $attrData)
     {
         $reviews = $this->getCollection()

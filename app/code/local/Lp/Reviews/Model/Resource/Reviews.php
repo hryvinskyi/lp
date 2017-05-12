@@ -12,5 +12,4 @@ class Lp_Reviews_Model_Resource_Reviews extends Mage_Core_Model_Mysql4_Abstract
     {
         $this->_init('lpreviews/reviews_items', 'id');
     }
-
 }

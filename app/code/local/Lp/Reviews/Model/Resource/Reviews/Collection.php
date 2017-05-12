@@ -13,5 +13,4 @@ class Lp_Reviews_Model_Resource_Reviews_Collection extends Mage_Core_Model_Mysql
         parent::_construct();
         $this->_init('lpreviews/reviews');
     }
-
 }

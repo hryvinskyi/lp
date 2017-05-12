@@ -15,18 +15,20 @@ class Lp_Reviews_Block_Items extends Mage_Core_Block_Template
 
         $collection = Mage::getModel('lpreviews/reviews')->getCollection();
 
+
         $fn = Mage::getModel('eav/entity_attribute')->loadByCode('1', 'firstname');
         $ln = Mage::getModel('eav/entity_attribute')->loadByCode('1', 'lastname');
-
         $collection->getSelect()
+            ->join(['ce0' => 'customer_entity'], 'ce0.entity_id=main_table.user_id', ['seller_email' => 'email'])
             ->join(['ce1' => 'customer_entity_varchar'], 'ce1.entity_id=main_table.user_id', ['firstname' => 'value'])
             ->where('ce1.attribute_id=' . $fn->getAttributeId())
-
             ->join(['ce2' => 'customer_entity_varchar'], 'ce2.entity_id=main_table.user_id', ['lastname' => 'value'])
             ->where('ce2.attribute_id=' . $ln->getAttributeId())
-            ->columns(new Zend_Db_Expr("CONCAT(`ce1`.`value`, ' ',`ce2`.`value`) AS fullname"))
-            ->where('main_table.status=1')
-            ->order('created_at DESC');
+            ->columns(
+                new Zend_Db_Expr("CONCAT(`ce1`.`value`, ' ',`ce2`.`value`) AS fullname")
+            )
+            ->order('created_at DESC')
+            ->where('main_table.status=1');
 
         $this->setCollection($collection);
     }

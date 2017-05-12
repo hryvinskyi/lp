@@ -23,16 +23,6 @@
         </routers>
     </admin>
 
-    <adminhtml>
-        <menu>
-            <lpreviews module="lpreviews">
-                <title>Reviews</title>
-                <sort_order>77</sort_order>
-                <action>lpreviews_admin/adminhtml_reviews</action>
-            </lpreviews>
-        </menu>
-    </adminhtml>
-
     <frontend>
         <routers>
             <lpreviews>
@@ -89,5 +79,44 @@
                 </setup>
             </reviews_setup>
         </resources>
+
+        <events>
+            <lpreviews_save_after>
+                <observers>
+                    <mail_status_change>
+                        <type>model</type>
+                        <class>lpreviews/observer</class>
+                        <method>invoicedStatusChange</method>
+                    </mail_status_change>
+                </observers>
+            </lpreviews_save_after>
+        </events>
+
+        <template>
+            <email>
+                <lp_lp_group_email_template_admin module="Lp_Reviews">
+                    <label>Added review for admin</label>
+                    <file>added_review_for_admin.html</file>
+                    <type>html</type>
+                </lp_lp_group_email_template_admin>
+
+                <lp_lp_group_email_template_user module="Lp_Reviews">
+                    <label>Added review for user</label>
+                    <file>added_review_for_user.html</file>
+                    <type>html</type>
+                </lp_lp_group_email_template_user>
+            </email>
+        </template>
     </global>
+
+    <default>
+        <lp>
+            <lp_group>
+                <recipient_email><![CDATA[hello@example.com]]></recipient_email>
+                <sender_email_identity>custom2</sender_email_identity>
+                <email_template_admin>lp_lp_group_email_template_admin</email_template_admin>
+                <email_template_user>lp_lp_group_email_template_user</email_template_user>
+            </lp_group>
+        </lp>
+    </default>
 </config>
